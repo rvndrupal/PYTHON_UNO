@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="899fbf5d-c4d4-4480-90f9-acc0b5f3f6b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Fase_dos/Diccionarios_for.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fase_dos/Repli_Editor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fase_dos/Tuplas.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fase_dos/Diccionarios_crud.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fase_dos/Diccionarios_crud.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +39,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Diccionarios_for">
+  <component name="RunManager" selected="Python.Tuplas">
     <configuration name="Diccionarios" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -124,7 +124,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Slice_steps" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Tuplas" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -136,7 +136,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fase_dos/Slice_steps.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fase_dos/Tuplas.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Tuplas" />
         <item itemvalue="Python.Diccionarios_for" />
         <item itemvalue="Python.Diccionarios_crud" />
         <item itemvalue="Python.Diccionarios" />
         <item itemvalue="Python.Slice_remplazar_borrar" />
-        <item itemvalue="Python.Slice_steps" />
       </list>
     </recent_temporary>
   </component>
