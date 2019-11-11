@@ -1,0 +1,94 @@
+Comandos para crear un crud.
+
+Desde la terminal.
+
+1.-pip install virtualenv
+
+2.-pip install django
+
+3.-django-admin startproject crud3 .
+
+4.-entrar a la carpeta 
+-->django-admin startapp inicrud
+
+5.-regresar hasta la raiz
+-->pip install psycopg2
+
+
+
+
+
+1.-pip install virtualenv
+
+2.-crear el entorno.
+.--> virtualenv crud_django
+
+3.-entra a la carpeta/scripts
+
+--> activate
+
+4.-Checar las dependencias
+--> pip freeze
+
+5.-Instalar django
+-->pip install django==1.11   //checar despues en otros
+
+6.-Instalar dependencia para conectar con postgressql
+-->pip install psycopg2
+
+7.-te Regresas a la raiz
+-->django-admin startproject crud4
+
+8.-Crear la base en postgressql
+-->instalar postgres
+-->Estando files\PostgresSQL\9.6\bin>  -->consola
+-->psql -U postgres
+
+9.-Creando la base.
+
+Desde el ide de Postgres
+
+10.-Creando la migración.
+
+Nos vamos a la carpeta crud4/crud4 
+
+-->python manage.py makemigrations
+
+-->python manage.py migrate
+
+11.-Crear una aplicacion donde esta todo 
+
+se crea una carpeta dentro de crud  llamada
+--> apps/_init_.py
+
+12.-Dentro de la carpet base primer crud
+entrar a Apps> django-admin startapp aplicacion
+
+13.-configurar en el crud de  adentro e el archivo. settings
+instaled apps
+
+'apps.apicaion'
+
+configurar lenguaje -->  LANGUAGE_CODE = 'es-pe'
+
+14.-Se crean los modelos
+
+
+class Persona(models.Model):
+    id=models.AutoField(primary_key=True)
+    nombre=models.CharField(max_length=50)
+    apellidos=models.CharField(max_length=50)
+    edad=models.IntegerField()
+    telefono=models.CharField(max_length=12)
+
+
+class Mascota(models.Model):
+    id=models.AutoField(primary_key=True)
+    nombre=models.CharField(max_length=50)
+    edad=models.IntegerField()
+    persona=models.ForeignKey(Persona, on_delete=models.CASCADE())
+
+
+    15.-regresamos al crud primero
+
+--> python manage.py makemigrations
