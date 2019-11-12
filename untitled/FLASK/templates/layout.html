@@ -3,11 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>{% block titulo %} {% endblock %}</title>
+    <link rel="stylesheet" href="/static/estilos.css">
 </head>
 <body>
     {% block contenido %}
 
     {% endblock %}
+
+    {% block footer %}
+    <h1>Demo del footer</h1>
+    {% endblock  %}
 
 </body>
 </html>

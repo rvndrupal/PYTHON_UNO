@@ -34,5 +34,17 @@ def sumar(a=0, b=0):
   context={'a':a,'b':b}
   return render_template("suma.html",**context)
 
+
+@app.route("/contacto")
+def contacto():
+    return render_template("contacto.html")
+  
+
+@app.route("/informacion", methods=['POST'])
+def informacion():
+    return render_template("informacion.html")
+
+
+
 if __name__ == "__main__":
     app.run(debug=True)

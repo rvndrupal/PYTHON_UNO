@@ -1,65 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fbdc410-9d4f-4abe-8f4f-9a18e1811cb5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/crud4/venv/Lib/site-packages/peewee-3.11.2-py3.7.egg-info/PKG-INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud4/venv/Lib/site-packages/peewee-3.11.2-py3.7.egg-info/SOURCES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud4/venv/Lib/site-packages/peewee-3.11.2-py3.7.egg-info/dependency_links.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud4/venv/Lib/site-packages/peewee-3.11.2-py3.7.egg-info/installed-files.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud4/venv/Lib/site-packages/peewee-3.11.2-py3.7.egg-info/not-zip-safe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud4/venv/Lib/site-packages/peewee-3.11.2-py3.7.egg-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud4/venv/Lib/site-packages/peewee.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud4/venv/Lib/site-packages/playhouse/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud4/venv/Lib/site-packages/playhouse/apsw_ext.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud4/venv/Lib/site-packages/playhouse/dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud4/venv/Lib/site-packages/playhouse/db_url.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud4/venv/Lib/site-packages/playhouse/fields.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud4/venv/Lib/site-packages/playhouse/flask_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud4/venv/Lib/site-packages/playhouse/hybrid.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud4/venv/Lib/site-packages/playhouse/kv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud4/venv/Lib/site-packages/playhouse/migrate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud4/venv/Lib/site-packages/playhouse/mysql_ext.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud4/venv/Lib/site-packages/playhouse/pool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud4/venv/Lib/site-packages/playhouse/postgres_ext.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud4/venv/Lib/site-packages/playhouse/reflection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud4/venv/Lib/site-packages/playhouse/shortcuts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud4/venv/Lib/site-packages/playhouse/signals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud4/venv/Lib/site-packages/playhouse/sqlcipher_ext.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud4/venv/Lib/site-packages/playhouse/sqlite_changelog.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud4/venv/Lib/site-packages/playhouse/sqlite_ext.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud4/venv/Lib/site-packages/playhouse/sqlite_udf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud4/venv/Lib/site-packages/playhouse/sqliteq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud4/venv/Lib/site-packages/playhouse/test_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud4/venv/Lib/site-packages/pwiz.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud4/venv/Scripts/pwiz.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/ARCHIVOS_EXPRESIONES_REGULARES/Escribir_archivo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/ARCHIVOS_EXPRESIONES_REGULARES/Importar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/ARCHIVOS_EXPRESIONES_REGULARES/Manual.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/ARCHIVOS_EXPRESIONES_REGULARES/sample.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/BASES_DATOS/DIARIO/CINCO.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/BASES_DATOS/DIARIO/CUATRO.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/BASES_DATOS/DIARIO/DIEZ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/BASES_DATOS/DIARIO/DOS.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/BASES_DATOS/DIARIO/MANUAL.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/BASES_DATOS/DIARIO/NUEVE.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/BASES_DATOS/DIARIO/OCHO.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/BASES_DATOS/DIARIO/ONCE.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/BASES_DATOS/DIARIO/SEIS.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/BASES_DATOS/DIARIO/SIETE.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/BASES_DATOS/DIARIO/TRES.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/BASES_DATOS/DIARIO/UNO.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/BASES_DATOS/EJEMPLO/personas.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/BASES_DATOS/EJEMPLO/persons.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/BASES_DATOS/Manual.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/Demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/FLASK/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/FLASK/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/FLASK/templates/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/FLASK/templates/suma.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/RECOMENDACIONES_CÓDIGO/Manual.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4fbdc410-9d4f-4abe-8f4f-9a18e1811cb5" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
