@@ -1,0 +1,11 @@
+Librerias
+
+import datetime
+
+from peewee import *
+
+from collections import OrderedDict
+
+/////
+choice =None   Valor en Null
+

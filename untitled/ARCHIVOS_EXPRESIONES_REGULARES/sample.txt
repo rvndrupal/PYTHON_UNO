@@ -1,0 +1,21 @@
+RegExr was created by gskinner.com, and is proudly hosted by Media Temple.
+
+Edit the Expression & Text to see matches. Roll over matches or the expression for details. PCRE & JavaScript flavors of RegEx are supported.
+
+The side bar includes a Cheatsheet, full Reference, and Help. You can also Save & Share with the Community, and view patterns you create or favorite in My Patterns.
+
+Explore results with the Tools below. Replace & List output custom results. Details lists capture groups. Explain describes your expression in plain English.
+
+
+abcdefghijklmnñpoq   ABCDEFGHIJKLMNÑOPQRZ
+
+12121212 -98.7 3.141 .6189 9,0000  +42
+
++1-(800)-(555)-(2468)
+
++3-(850)-(125)-(4568)
+
+demo@gmail.com  bar@test.co.uk
+
+http:://rege.com/foo.html?q=bar
+
