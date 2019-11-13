@@ -39,5 +39,32 @@ https://cmder.net/  checar el bin  copiar y pegar en el path
     -->pip install psycopg2
 
 -->Crear un nuevo proyecto.
+    -->Dentro de la carpet en este caso proyecto uno.
+    -->django-admin.exe startproject <name>
+    -->Ojo seleccionar el interpret de python  trol + shif + p 
+
+-->Configurar el settings.py
     -->
+    DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'cursodj',
+        'USER': 'rodrigo',
+        'PASSWORD': 'rorro13',
+        'HOST': '127.0.0.1',
+        'PORT': '5432',
+    }
+}
+
+-->Crear la base de datos.
+    -->\l -> Muestra todas las bases de SQL SHELl
+    -->create database cursodj
+    -->\c cursodj  --> se conecta con la base
+
+-->Primer Migración del sistema.
+    -->entrar a la base de cursodj a la primer carpeta
+    -->python manage.py runserver
+    -->ctrl + c  --> se para.
+    -->python manage.py migrate
+    
     
