@@ -1,0 +1,40 @@
+CONSOLA CMDER.
+
+https://cmder.net/  checar el bin  copiar y pegar en el path
+
+-->entorno virtual python
+    -->python -m venv entvirt    //crea un copia del entorno virtual.
+
+    -->activer el entorno virtual entrar a Scripts> activate.bat
+    -->para desactivar >deactivate.bat
+
+-->Configurar Visual Code.
+    -->abrir > code .
+    -->ir a donde tneemos el CMDER
+    -->crear archivo vsc.bat
+
+-->Instalar Django
+    -->pip install django
+    
+
+-->Ver que tenemos instalado
+    -->pip freeze
+
+-->Ver paquetes del Sitio oficial.
+    -->https://pypi.org/
+    -->instalar paquet --> pip install <la ruta y el nombre del paquete>
+
+-->Seleccionar el interprete de Python Visual Code.
+    -->ctrl+shif+p
+    -->Python:Seleccionar interprete  para escojer el inteprete que tienes.
+
+-->VISUAL STUDE Code.
+    -->pip install pylint
+
+-->Consola PsotgreSQL
+    -->Buscar sql SHell aplicacion
+
+-->Instalar psycopg2
+    -->Para poder conectarse con la base de datos de PsotgreSQL
+    -->pip install psycopg2
+    

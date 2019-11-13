@@ -1,0 +1,15 @@
+Asumiendo que los archivos descargados están en c:\python\packages\pylint\
+
+El órden y los paquetes a instalar son:
+
+		pip install c:\python\packages\pylint\colorama-0.3.9-py2.py3-none-any.whl
+		pip install c:\python\packages\pylint\isort-4.3.4-py3-none-any.whl
+		pip install c:\python\packages\pylint\isort-4.3.4-py3-none-any.whl
+
+		pip install c:\python\packages\pylint\lazy-object-proxy-1.3.1.tar.gz
+		pip install c:\python\packages\pylint\wrapt-1.10.11.tar.gz
+		pip install c:\python\packages\pylint\six-1.11.0-py2.py3-none-any.whl
+
+		pip install c:\python\packages\pylint\astroid-2.0.4-py3-none-any.whl
+		pip install c:\python\packages\pylint\mccabe-0.6.1-py2.py3-none-any.whl
+		pip install c:\python\packages\pylint\pylint-2.1.1-py3-none-any.whl

@@ -1,0 +1,4 @@
+{
+	"terminal.integrated.shell.windows":"C:\\WINDOWS\\sysnative\\cmd.exe",
+	"terminal.integrated.shellArgs.windows": ["/K","C:\\CMDER\\vsc.bat"]
+}
