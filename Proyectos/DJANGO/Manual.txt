@@ -1,0 +1,24 @@
+Crear proyecto
+
+django-admin startproject <nombre>
+
+iniciar-server -->  python manage.py runserver
+
+documentacion en español:
+
+https://docs.djangoproject.com/es/2.2/intro/tutorial01/
+
+-->Ver todos los comandos.
+    -->python manage.py
+
+-->migraciones.
+-->python manage.py migrate
+
+-->Crear una Aplicacion
+-->python manage.py startapp <nom>
+
+-->Entrar a la consola de django
+    -->python manage.py shell
+
+-->Crear un super Usuario.
+    -->python manage.py createsuperuser
