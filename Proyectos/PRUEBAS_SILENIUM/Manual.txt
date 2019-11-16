@@ -1,0 +1,35 @@
+Pruebas.
+
+Instalar
+
+pip install selenium
+
+--> Verificar -->pip list
+
+-->Instalar Driver para Firefox  geckodriver
+    -->https://github.com/mozilla/geckodriver/releases
+    -->Pegar en --> C:\Users\rodrigo.villanueva.c\AppData\Local\Programs\Python\Python37
+
+-->Driver para firefox.
+    -->https://chromedriver.chromium.org/downloads
+
+-->Internet Explorer.
+    -->Esta es silenium
+
+-->Comienza lo chingo.
+    -->www.goodstartbooks.com/pruebas
+
+-->Buscar Elementos Xpath
+    -->/html/body
+    -->//tr[1]   #te manda a la Primera Fila
+    -->//@id  #selecciona el id
+    -->//tr[2]/../.. ##va subiendo en la tabla
+    -->//tr[last()] #ultimo
+    -->//tr[last()-1] #penultimo
+    -->//tr[position() < 3]  ##de la tbala dos que sean menores a tres.
+    -->//tr[@id] #que tenga un id
+    -->//tr[@id="importante"] #que tenga un id con importante
+    -->//tr[@id="noImportante"] 
+    -->//tr[@id="importante"]/td  # de este id selecciona los td de abajo
+    -->//table//*
+

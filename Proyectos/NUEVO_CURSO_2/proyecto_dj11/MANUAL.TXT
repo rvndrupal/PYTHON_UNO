@@ -41,7 +41,7 @@ https://cmder.net/  checar el bin  copiar y pegar en el path
 -->Crear un nuevo proyecto.
     -->Dentro de la carpet en este caso proyecto uno.
     -->django-admin.exe startproject <name>
-    -->Ojo seleccionar el interpret de python  trol + shif + p 
+    -->Ojo seleccionar el interpret de python  ctrol + shif + p 
 
 -->Configurar el settings.py
     -->
@@ -67,4 +67,8 @@ https://cmder.net/  checar el bin  copiar y pegar en el path
     -->ctrl + c  --> se para.
     -->python manage.py migrate
     
-    
+
+-->Crear primera Aplicación.
+    -->Estando en la primer carpeta de cursodj
+    -->python manage.py startapp generelas.
+    -->Registrar la APP en cursodj-->settings.py
