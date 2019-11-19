@@ -33,3 +33,5 @@ pip install selenium
     -->//tr[@id="importante"]/td  # de este id selecciona los td de abajo
     -->//table//*
 
+    //*[@id="noImportante"]/td[2]
+
