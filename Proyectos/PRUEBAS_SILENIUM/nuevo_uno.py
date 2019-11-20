@@ -27,8 +27,12 @@ class FindByIdName (unittest.TestCase):
             nombre.send_keys("Rodrigo")
             time.sleep(1)
             nom = nombre.get_attribute("value")
-            
             print("Nombre: ", nom)
+            time.sleep(2)
+            if nom == "Rodrigo":
+                print("Bienvenido Rodrigo todo ok")
+            
+           
             
         
         ap=driver.find_element_by_id("ap") #busca el campo y escribe
