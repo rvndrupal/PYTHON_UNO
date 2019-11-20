@@ -35,3 +35,13 @@ pip install selenium
 
     //*[@id="noImportante"]/td[2]
 
+
+
+-->Comienza lo chingo.
+    -->www.goodstartbooks.com/pruebas
+
+-->Encontrando con Python
+    -->buscar por id --> find_element_by_id
+    -->nombre -->  find_element_by_name
+    -->todos estan en la img
+    -->todos regresan una lista seria como la segunda imagen.
