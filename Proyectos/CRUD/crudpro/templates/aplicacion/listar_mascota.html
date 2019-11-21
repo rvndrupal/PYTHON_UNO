@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Listar Mascota</title>
+</head>
+<body>
+    <table class="table" border="2">
+        <thead>
+            <tr>
+                <td>ID</td>
+                <td>Nombre</td>
+                <td>Edad</td>
+                <td>Persona</td>
+                <!-- <td>Editar</td>
+                <td>Borrar</td> -->
+            </tr>
+        </thead>
+        <tbody>
+            <!-- {% for mas in mascota %}
+            <tr>
+                <td>{{ mas.id }}</td>
+                <td>{{ mas.nombre }}</td>
+                <td>{{ mas.edad }}</td>
+                <td>{{ mas.persona.nombre }}</td>
+                <td><a href="{% url 'editar_mascota' mas.id %}">Editar</a></td>
+                <td><a href="{% url 'eliminar_mascota' mas.id %}">Eliminar</a></td>
+            </tr>
+            {% endfor %} -->
+            {% for mas in object_list %}
+            <tr>
+                <td>{{ mas.id }}</td>
+                <td>{{ mas.nombre }}</td>
+                <td>{{ mas.edad }}</td>
+                <td>{{ mas.persona }}</td>
+              
+            </tr>
+            {% endfor %}
+            
+        </tbody>
+
+    </table>
+    
+</body>
+</html>
