@@ -1,0 +1,3 @@
+-->Instalar mysql en la aplicación.
+    -->pip install pymysql
+    -->Si no se deja importar las librerias.

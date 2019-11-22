@@ -1,0 +1,7 @@
+Recordar registrar la app.
+
+-->Instalar la libreria para la imagen.
+    -->pip install Pillow
+
+-->Descargar libreria salmonella
+    -->pip install django-salmonella

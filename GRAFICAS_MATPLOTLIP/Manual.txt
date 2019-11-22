@@ -1,0 +1,6 @@
+-->Intalar la libreria
+
+pip install matplotlib
+
+-->Estilos disponibles.
+    -->plt.style.available

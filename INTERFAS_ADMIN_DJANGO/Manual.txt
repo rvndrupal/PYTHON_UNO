@@ -1,0 +1,10 @@
+Dentro de la aplicación cuando creamos
+
+python manage.py startapp App
+
+Comando muy importante para mostrar los templates del admin.
+
+--> python -c "import django; print(django.__path__)"
+    -->Mostrar carpetas ocultas.
+    -->copiar el archivo login a la carpeta -->admin
+    -->agregar los css de login

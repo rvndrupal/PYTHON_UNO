@@ -1,0 +1,16 @@
+Curso y repositorios.
+
+https://github.com/joanby
+
+-->Instalar paquetes.
+    -->install.packages("magic")
+
+-->para usuar la libreria.
+    -->library(magic)  -->sin commillas
+
+-->para usuarlo despues de cargar la libreria.
+    -->magic(6)
+
+-->pARA INSTALAR PYTHON
+    -->library(reticulate)
+    -->py_install("simpy")  -->las dos lineas
