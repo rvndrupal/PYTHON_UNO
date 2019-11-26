@@ -1,0 +1,32 @@
+1.- Instalar virtualenv
+    -->pip install virtualenv
+
+-->Iniciamos una virtualenv
+    -->virtualenv crud_django01
+
+-->ir a la carpeta y ha Script
+    -->activate
+
+-->Para apagar.
+    -->deactivate
+
+-->Checar las depenedencias
+    -->pip freeze
+
+-->Actualizar pip
+    -->pip install --upgrade pip
+
+-->Instalar Django CMS.
+    -->pip install djangocms-installer
+
+-->mkdir tutorial-project
+cd tutorial-project
+
+-->Crear un nuevo proyecto.
+    -->djangocms -f -p . mysite
+
+-->Ejecutar el proyecto
+    -->python manage.py runserver
+
+-->Crear un super Usuario.
+    -->python manage.py createsuperuser
