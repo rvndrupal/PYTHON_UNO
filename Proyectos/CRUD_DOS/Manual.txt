@@ -1,0 +1,53 @@
+-->virtualenv crud2_0
+
+-->pip install Django==2.2.7
+
+-->Me regreso y creo el proyecto.
+
+-->django-admin startproject biblioteca   #crea el proyecto
+
+-->Crear la primera aplicación
+    -->estando en la carpeta apps.
+
+-->django-admin startapp libro
+
+-->registrar la aplicacon en settings.
+
+-->Creando los modelos.
+    -->
+
+-->Creando la migración. 
+    -->en donde esta el manage.
+    -->python manage.py makemigrations
+    -->python manage.py migrate
+
+-->Levantar el servidor.
+    -->python manage.py runserver    -->opcional    python manage.py runserver 0.0.0.0:8006
+
+-->Crear un super usuario.
+    -->python manage.py createsuperuser
+
+-->Instalar libreria psycopg2
+    -->pip install psycopg2
+
+-->Para instalar con mysql.
+    -->https://www.youtube.com/watch?v=47H3OHdTkLw&list=PLMbRqrU_kvbTGg_oUKXyWi63Mo9Yoot9K&index=7
+
+-->configuración. 
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'biblioteca',
+        'USER': 'rodrigo',
+        'PASSWORD': 'rorro13',
+        'HOST': 'localhost',
+        'PORT': 5432
+    }
+}
+
+-->Cambios de un campo se tienen que hacer los dos procesos de las migraciones para que se puedan Reflejar. -->OJO
+
+############################################
+
+MANEJO DEL SHELL DE DJANGO
