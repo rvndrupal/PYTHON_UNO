@@ -51,3 +51,21 @@ DATABASES = {
 ############################################
 
 MANEJO DEL SHELL DE DJANGO
+
+--> python manage.py shell
+
+-->from apps.libro.models import Autor  #importar el modelo a consultar
+
+#para Crear
+
+--> Autor.objects.create(nombre="Carlos", apellidos = "Olmos" , nacionalidad="Eu", descripcion="demo de carlos")
+
+
+#Consuta todos. 
+--> Autor.objects.all()
+
+-->Autor.objects.filter(nacionalidad="Mexicana")
+
+-->Autor.objects.get(id=3)  #un solo autor
+
+-->Autor.objects.filter(nacionalidad="Mexicana", id=2)

@@ -3,9 +3,16 @@
 {% block body %}
     <form action="" method="POST">
         {% csrf_token %}
-        {{ autor_form.as_p }}
 
-        <button type="submit">Crear</button>
+        {% if error %}
+            <h2>Error: en el sistema: {{ error }}</h2> <a href="{% url 'libro:listar_autor' %}">Lista</a>
+            
+
+        {% else %}
+             {{ autor_form.as_p }}
+             <button type="submit">Crear</button>
+
+        {% endif %}     
 
     </form>
 {% endblock body%}
