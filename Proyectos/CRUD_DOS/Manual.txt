@@ -69,3 +69,15 @@ MANEJO DEL SHELL DE DJANGO
 -->Autor.objects.get(id=3)  #un solo autor
 
 -->Autor.objects.filter(nacionalidad="Mexicana", id=2)
+
+
+#####################################33
+LIBRERIA IMPORT, EXPORT
+
+pip install django-import-export
+
+
+#################################
+django-ckeditor
+
+pip install django-ckeditor

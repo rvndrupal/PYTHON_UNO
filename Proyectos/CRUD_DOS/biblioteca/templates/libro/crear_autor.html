@@ -9,7 +9,19 @@
             
 
         {% else %}
-             {{ autor_form.as_p }}
+             <!-- {{ autor_form.as_p }} -->
+             <label>Nombres</label>
+             <input type="text" name="nombre">
+             <label>Apellidos</label>
+             <input type="text" name="apellidos">
+             <label>Nacionalidad</label>
+             <input type="text" name="nacionalidad">
+             <label>Descripción: </label>
+             <input type="text" name="descripcion">
+
+
+
+
              <button type="submit">Crear</button>
 
         {% endif %}     
