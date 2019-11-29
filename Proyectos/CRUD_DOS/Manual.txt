@@ -81,3 +81,9 @@ pip install django-import-export
 django-ckeditor
 
 pip install django-ckeditor
+
+
+#################################3
+Plantilla.
+
+https://github.com/BlackrockDigital/startbootstrap-clean-blog
