@@ -43,10 +43,48 @@ class FindByIdName (unittest.TestCase):
         am=driver.find_element_by_id("am") #busca el campo y escribe
         if am is not None:
             am.send_keys("Nieto")
-            time.sleep(2)
+            time.sleep(1)
             
             
-            time.sleep(3)
+            time.sleep(1)
+            
+        radio=driver.find_element_by_id("RadioGroup1_0")
+        if radio is not None:
+            radio.click()
+            time.sleep(1)
+            
+        radio2=driver.find_element_by_id("RadioGroup1_1")
+        if radio2 is not None:
+            radio2.click()
+            time.sleep(1)
+            
+        check1=driver.find_element_by_id("CheckboxGroup1_0")
+        if check1 is not None:
+            check1.click()
+            time.sleep(1)
+            
+        check2=driver.find_element_by_id("CheckboxGroup1_1")
+        if check2 is not None:
+            check2.click()
+            time.sleep(1)
+        
+        check3=driver.find_element_by_id("CheckboxGroup1_2")
+        if check3 is not None:
+            check3.click()
+            time.sleep(1)
+            
+        ingredientes=driver.find_element_by_name("ingrediente")
+        if ingredientes is not None:
+            ingreSel=Select(ingredientes)
+            ingreSel.select_by_value("cebolla")
+            time.sleep(1)
+            
+        frutas=driver.find_element_by_name("Select1")
+        if frutas is not None:
+            frutaSel=Select(frutas)
+            frutaSel.select_by_index(1)
+            frutaSel.select_by_visible_text("Sandia")
+            time.sleep(1)
                 
        
         
@@ -65,3 +103,7 @@ class FindByIdName (unittest.TestCase):
         
 if __name__=="__main__": 
     unittest.main()
+    
+    
+
+
