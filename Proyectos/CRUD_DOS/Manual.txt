@@ -87,3 +87,54 @@ pip install django-ckeditor
 Plantilla.
 
 https://github.com/BlackrockDigital/startbootstrap-clean-blog
+
+
+
+
+##############################################33
+-->Preparando el Proyecto para subir a heroku
+-->pip install gunicorn
+
+-->El la principal de django crear el archivo Procfile
+
+--> poner -->  web: gunicorn django blog.wsgi
+
+-->Configurar librerias y configurar todos.
+
+-->creando la migración de librerias.
+    -->pip freeze > requirements.txt
+
+
+
+
+###################################
+CONFIGURAR EL SISTEMA EN HEROKU.
+
+-->Crear carpeta settings.
+-->Crear archivo __init__.py
+-->Se reparten en partes el archivo settings
+-->configurar el archivo wsgi.pi la ruta de local o public 
+-->manage tambien
+
+--> se agrega local al final en los dos   --> os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'django_blog.settings.local')
+
+
+-->Configurar Heroku
+
+-->ya tengo cuenta
+
+-->instalar The Heroku CLI
+
+-->En una terminal poner > heroku --version 
+
+--> heroku login
+
+-->Crear aplicacion desde la terminal
+    -->desde la terminal que esta conectada por el login
+    -->heroku create   -->sin guiones
+
+C:\Users\rodrigo.villanueva.c\Documents\PYTHON\CMDER
+λ heroku create
+Creating app... done, ⬢ afternoon-hamlet-82252
+https://afternoon-hamlet-82252.herokuapp.com/ | https://git.heroku.com/afternoon-hamlet-82252.git
+

@@ -1,0 +1,7 @@
+guia uno 
+
+-->  http://www.maestrosdelweb.com/curso-django-el-shell-de-django/
+
+-->Poblar base de datos en Django.
+
+--> https://www.youtube.com/watch?v=XiQx2JmYz7w

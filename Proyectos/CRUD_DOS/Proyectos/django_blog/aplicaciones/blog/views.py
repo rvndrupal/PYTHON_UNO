@@ -2,6 +2,7 @@ from django.shortcuts import render
 from .models import Post,Categoria
 from django.shortcuts import get_object_or_404
 from django.db.models import Q
+from django.core.paginator import Paginator
 
 
 def home(request):
@@ -13,6 +14,10 @@ def home(request):
             Q(titulo__icontains = queryB) |
             Q(descripcion__icontains = queryB)
         ).distinct()
+    
+    paginator=Paginator(posts,2) #Numero de elementos a mostrar
+    page=request.GET.get('page')
+    posts=paginator.get_page(page)
     
     
     #print(posts)
