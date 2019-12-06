@@ -1,2 +1,5 @@
 #Tipo de Variable.
 
+instalar la siguiente libreria.
+
+pip install argparse

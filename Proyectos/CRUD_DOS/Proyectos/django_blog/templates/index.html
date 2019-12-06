@@ -9,18 +9,22 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>{% block title %} BLOG  {% endblock title %}</title>
+  <title>{% block title %} BLOG {% endblock title %}</title>
 
   <!-- Bootstrap core CSS -->
   <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
 
   <!-- Custom fonts for this template -->
   <link href="{% static 'vendor/fontawesome-free/css/all.min.css' %}" rel="stylesheet" type="text/css">
-  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet'
+    type='text/css'>
+  <link
+    href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+    rel='stylesheet' type='text/css'>
 
   <!-- Custom styles for this template -->
   <link href="{% static 'css/clean-blog.min.css' %}" rel="stylesheet">
+  <link href="{% static 'css/estilos.css' %}" rel="stylesheet">
 
 </head>
 
@@ -30,7 +34,9 @@
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand" href="{% url 'blog:index' %}">Python</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
       </button>
@@ -40,19 +46,19 @@
             <a class="nav-link" href="{% url 'blog:index' %}">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">Generales</a>
+            <a class="nav-link" href="{% url 'blog:generales' %}">Generales</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">Programación</a>
+            <a class="nav-link" href="{% url 'blog:programacion' %}">Programación</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="post.html">Videojuegos</a>
+            <a class="nav-link" href="{% url 'blog:videojuegos' %}">Videojuegos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Tecnologías</a>
+            <a class="nav-link" href="{% url 'blog:tecnologia' %}">Tecnologías</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Tutoriales</a>
+            <a class="nav-link" href="{% url 'blog:tutoriales' %}">Tutoriales</a>
           </li>
         </ul>
       </div>
@@ -60,40 +66,71 @@
   </nav>
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('{% static 'img/home-bg.jpg' %}')">
+  <header class="masthead"
+    style="background-image: url({% block img %}{% static 'img/home-bg.jpg' %}{% endblock img %})">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="site-heading">
             <h1>Blog Python</h1>
-            <span class="subheading">Desarrollo con Django</span>
+            <span class="subheading">{% block tp %}Desarrollo con Django {% endblock tp%}</span>
           </div>
         </div>
       </div>
     </div>
   </header>
 
+
+  {% block barra_busqueda %}
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 search">
+        <form method="get">
+          <div id="custom-search-input">
+            <div class="input-group col-md-12">
+              <input type="text" class="form-control" placeholder="Buscar..." name="buscar" value={{ request.GET.buscar }}>
+              <span class="input-group-list">
+                <i class="icon icon-search"></i>
+                <button type="submit" class="boton btn-success">Buscar</button>
+              </span>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  {% endblock barra_busqueda %}
+
+
+
+  {% block contenido %}
   <!-- Main Content -->
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
+        {% if posts %}
+        {% for item in posts %}
         <div class="post-preview">
-          <a href="post.html">
+          <a href="{% url 'blog:detalle_post' item.slug %}">
             <h2 class="post-title">
-              Man must explore, and this is exploration at its greatest
+              {{ item.titulo }}
             </h2>
             <h3 class="post-subtitle">
-              Problems look mighty small from 150 miles up
+              {{ item.descripcion }}
             </h3>
           </a>
-          <p class="post-meta">Posted by
-            <a href="#">Start Bootstrap</a>
-            on September 24, 2019</p>
+          <p class="post-meta">Escrito por:
+            <strong></strong>{{ item.autor }}</strong>el
+            {{ item.fecha_creacion }}</p>
         </div>
-       
-        
         <hr>
+        {% endfor %}
+        {% else %}
+        <h1>No existen Posts</h1>
+
+        {% endif %}
+
         <!-- Pager -->
         <div class="clearfix">
           <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
@@ -101,8 +138,9 @@
       </div>
     </div>
   </div>
-
   <hr>
+
+  {% endblock contenido %}
 
   <!-- Footer -->
   <footer>
