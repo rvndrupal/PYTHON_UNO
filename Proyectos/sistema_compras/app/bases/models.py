@@ -12,3 +12,5 @@ class ClaseModelo(models.Model):
     
     class Meta:
         abstract=True  #muy importante no hace la migración ya que solo lo vamos a tomar para heredar.
+
+
