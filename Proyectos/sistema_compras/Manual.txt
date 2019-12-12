@@ -62,3 +62,6 @@ https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 -->Creando una aplicación.
 python manage.py startapp bases
+
+
+-->Verificar los Signals  son como trigers de base de datos para actualizar valores.

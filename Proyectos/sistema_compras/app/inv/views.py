@@ -213,6 +213,7 @@ class ProductoView(SinPrivilegios, generic.ListView):
     model = Producto
     template_name = "inv/prducto_list.html"
     context_object_name = "obj"
+    permission_required="inv.view_producto"
 
 
 class ProductoNew(SinPrivilegios, generic.CreateView):
@@ -221,6 +222,9 @@ class ProductoNew(SinPrivilegios, generic.CreateView):
     context_object_name = 'obj'
     form_class=ProductoForm
     success_url= reverse_lazy("inv:producto_list")
+    success_message="Producto Creado"
+    permission_required="inv.add_producto"
+    
     
 
     def form_valid(self, form):
@@ -234,6 +238,8 @@ class ProductoEdit(SinPrivilegios, generic.UpdateView):
     context_object_name = 'obj'
     form_class=ProductoForm
     success_url= reverse_lazy("inv:producto_list")
+    success_message="Producto Editado"
+    permission_required="inv.change_producto"
     
 
     def form_valid(self, form):
