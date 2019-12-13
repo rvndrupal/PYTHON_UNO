@@ -1,0 +1,6 @@
+
+   ingredientes=driver.find_element_by_name("ingrediente")
+        if ingredientes is not None:
+            ingreSel=Select(ingredientes)
+            ingreSel.select_by_value("cebolla")
+            time.sleep(1)

@@ -50,6 +50,7 @@ class CategoriaEdit(SuccessMessageMixin, SinPrivilegios, generic.UpdateView):
         return super().form_valid(form)
     
 class CategoriaDel(SuccessMessageMixin, SinPrivilegios , generic.DeleteView):
+    permission_required = "inv.delete_categoria"
     model=Categoria
     template_name='inv/catalogos_del.html'
     context_object_name='obj'
