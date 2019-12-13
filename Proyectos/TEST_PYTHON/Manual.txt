@@ -1,0 +1,74 @@
+Instalando Librerias. 
+
+--> pip install -U selenium
+
+-->pip list    ver la lista
+
+-->pip install pytest
+
+-->pip install openpyxl  Leer archivos xml
+
+-->pip install behave
+
+-->pip install allure-behave
+
+-->pip install allure-pytest
+
+-->pip install Pillow
+
+-->pip install unittest-xml-reporting
+
+-->pip install unittest
+
+
+
+##########################33
+Para quitar
+
+pip uninstall Pillow
+
+
+###############################
+Control de las Librerias que se tienen.
+
+pip freeze  > requirements.txt  -->respaldo de las librerias.
+
+
+####################################
+Entorno Virtual.
+
+pip install --user virtualenv     --> instalar para las librerias.
+
+--> crear maquina Virtual.
+
+-->python -m virtualenv mv
+
+-->migrar todas librerias.
+
+-->pip install -r .\requirements.txt   -->chingon
+
+
+######################################3
+Estructura todo esta en  --> src
+
+
+
+############################################3
+Lote de pruebas y reporte.
+
+python -m pytest .\tst_002.py --junitxml=results.xml
+
+python -m pytest .\tst_001.py --junitxml=results.xml
+
+
+##########################################################33
+SELENIUM
+
+Dirección de los drivers:
+
+C:\Users\rodrigo.villanueva.c\AppData\Local\Programs\Python\Python37
+
+
+
+
+

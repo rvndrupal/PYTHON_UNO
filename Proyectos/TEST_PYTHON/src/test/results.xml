@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="1" hostname="EEXL01RODRIGOIG" name="pytest" skipped="0" tests="2" time="0.050" timestamp="2019-12-12T16:54:21.192426"><testcase classname="tst_001.test_001" file="tst_001.py" line="9" name="test_001" time="0.002"></testcase><testcase classname="tst_001.test_002" file="tst_001.py" line="23" name="test_001" time="0.001"><failure message="AssertionError: &apos;Mervin Alber&apos; != &apos;Mervin Alberto&apos;
+- Mervin Alber
++ Mervin Alberto
+?             ++
+ : El resultado es diferente al esperado: Mervin Alberto">self = &lt;test.tst_001.test_002 testMethod=test_001&gt;
+
+    def tearDown(self):
+&gt;       self.assertEqual(&quot;Mervin Alber&quot;, self.RESULTADO, f&quot;El resultado es diferente al esperado: {self.RESULTADO}&quot;)
+E       AssertionError: &apos;Mervin Alber&apos; != &apos;Mervin Alberto&apos;
+E       - Mervin Alber
+E       + Mervin Alberto
+E       ?             ++
+E        : El resultado es diferente al esperado: Mervin Alberto
+
+tst_001.py:29: AssertionError</failure></testcase></testsuite></testsuites>
