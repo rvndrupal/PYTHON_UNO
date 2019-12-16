@@ -4,3 +4,14 @@
             ingreSel=Select(ingredientes)
             ingreSel.select_by_value("cebolla")
             time.sleep(1)
+
+
+
+
+Encontrar varios elementos que tienen el mismo elemento.
+--> Ejemplo elementos que tiene la clase info_demo que los regresen como un arreglo
+
+--> self.driver.find.elements_by_xpath("xpath")  -->lo que cambia es elements.
+
+
+###########################################
