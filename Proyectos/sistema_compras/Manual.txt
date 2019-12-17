@@ -65,3 +65,7 @@ python manage.py startapp bases
 
 
 -->Verificar los Signals  son como trigers de base de datos para actualizar valores.
+
+
+###############################3
+-->Instalar pip install django-userforeignkey
