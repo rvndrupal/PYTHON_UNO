@@ -85,3 +85,20 @@ QUIE AUTOMATION
 Reportes html
 
 pip install html-testRunner
+
+
+
+
+############################################
+Reportes dos.
+
+pip install pytest-html
+
+
+-->python -m pytest tst_factura.py --html=../reportes/factura/fac.html --self-contained-html
+
+
+
+################################################
+Instalar allure
+

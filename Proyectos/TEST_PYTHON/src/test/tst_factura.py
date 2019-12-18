@@ -6,6 +6,8 @@ import random
 from random import randint
 from selenium.common.exceptions import TimeoutException
 
+import HtmlTestRunner
+
 horaGlobal = time.strftime("%H%M%S")
 
 class Test_osiap(unittest.TestCase):
@@ -19,7 +21,7 @@ class Test_osiap(unittest.TestCase):
         self.driver.maximize_window()
         self.NOMBRE = "rodrigo"
         self.PASSWORD = "rorro131319+"
-        self.tiempo=.1
+        self.tiempo=.3
         
         
     def test_001(self):
@@ -28,7 +30,8 @@ class Test_osiap(unittest.TestCase):
         self.driver.get("http://localhost:8000/")
         
         self.driver.find_element_by_xpath("//*[@id='id_username']").clear() 
-        self.driver.find_element_by_xpath("//*[@id='id_username']").send_keys("")             
+        #self.driver.find_element_by_xpath("//*[@id='id_username']").send_keys("")             
+        self.driver.find_element_by_xpath("//*[@id='id_usernamerr']").send_keys("")   #error prueba           
         time.sleep(self.tiempo)
         
         self.driver.find_element_by_xpath("//*[@id='id_password']").clear()
@@ -242,39 +245,10 @@ class Test_osiap(unittest.TestCase):
         time.sleep(self.tiempo)
         
        
-        
-        
-       
-        
-        
-        
-        
-        
-        
-        
-       
-        
-        
-        
-        
-        
-       
-       
-        
-     
-        
-        
-       
-        
-        
-       
-        
-        
-       
-        
+   
     def tearDown(self):
         self.driver.quit()
 
 
 if __name__ == "__main__":
-    unittest.main()
+     unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='C:\\Python\\Proyectos\\TEST_PYTHON\\src\\reportes\\factura'))
