@@ -19,7 +19,7 @@ class Test_osiap(unittest.TestCase):
         self.driver.maximize_window()
         self.NOMBRE = "rodrigo"
         self.PASSWORD = "rorro131319+"
-        self.tiempo=.1
+        self.tiempo=1.5
         
         
     def test_001(self):

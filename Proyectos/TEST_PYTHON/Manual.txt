@@ -75,3 +75,13 @@ Action changes.
 
 
 
+###################################333333
+QAAUTOMATION
+
+QUIE AUTOMATION
+
+
+#############################################3
+Reportes html
+
+pip install html-testRunner
