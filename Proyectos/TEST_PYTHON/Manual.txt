@@ -100,5 +100,52 @@ pip install pytest-html
 
 
 ################################################
-Instalar allure
+Leer texto de una imagen
+
+instalar --> pip install pytesseract
+
+Instalar en windows.
+
+Ir a esta pagina.
+
+https://digi.bib.uni-mannheim.de/tesseract/
+
+Descargar -->  tesseract-ocr-w64-setup-v4.0.0-rc4.20181024.exe
+
+Poner la ruta ya en el codigo C:\Program Files (x86)\Tesseract-OCR
+
+
+
+#############################################################
+Instalar Allue.
+
+https://bintray.com/qameta/maven/allure2/2.9.0
+
+-->Copiar la carpeta en C -->allure_2.9.0
+
+-->poner ls rutas en variables de entorno archivo  rutas_allue.txt  solo poniendo esa queda
+
+-->ojo las variables de python tienen que quedar debajo de estas muy importante
+
+-->pip install allure
+
+
+
+
+
+-->Ejecutar
+
+-->pytest test_select.py --alluredir  C:\Python\Proyectos\TEST_PYTHON\src\reports
+
+-->Generar los html
+
+-->ir a donde esta la carpeta reports  muy importante estar en el CMDER en la carpeta  --> C:\Python\Proyectos\TEST_PYTHON\src\reports
+
+-->allure generate C:\Python\Proyectos\TEST_PYTHON\src\reports  
+
+-->allure generate C:\Python\Proyectos\TEST_PYTHON\src\reports  --clean    --> se limpia y se hace de nuevo
+
+
+
+
 

@@ -1,0 +1,83 @@
+{
+  "uid" : "18593c5a0cc4437f",
+  "name" : "test_Caja_texto",
+  "fullName" : "test.test_select#test_Caja_texto",
+  "historyId" : "bcb08699acc0ecb5716b21cbf1262f9d",
+  "time" : {
+    "start" : 1576788811548,
+    "stop" : 1576788824298,
+    "duration" : 12750
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Prueba de la caja de texto",
+      "time" : {
+        "start" : 1576788811548,
+        "stop" : 1576788824298,
+        "duration" : 12750
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "be3a93b1545969a9",
+        "name" : "835d5384-c950-4841-bd0e-2611ea48c96b-attachment.png",
+        "source" : "be3a93b1545969a9.png",
+        "type" : "image/png",
+        "size" : 131276
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "test_select"
+  }, {
+    "name" : "host",
+    "value" : "EEXL01RODRIGOIG"
+  }, {
+    "name" : "thread",
+    "value" : "6468-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.test_select"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "18593c5a0cc4437f.json",
+  "parameterValues" : [ ]
+}
