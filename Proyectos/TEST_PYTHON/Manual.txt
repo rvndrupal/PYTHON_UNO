@@ -143,7 +143,8 @@ https://bintray.com/qameta/maven/allure2/2.9.0
 
 -->allure generate C:\Python\Proyectos\TEST_PYTHON\src\reports  
 
--->allure generate C:\Python\Proyectos\TEST_PYTHON\src\reports  --clean    --> se limpia y se hace de nuevo
+-->allure generate C:\Python\Proyectos\TEST_PYTHON\src\reports  --clean    --> se limpia y se hace de C:\Python\Proyectos\TEST_PYTHON\src\reports
+
 
 
 
