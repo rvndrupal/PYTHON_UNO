@@ -135,7 +135,7 @@ https://bintray.com/qameta/maven/allure2/2.9.0
 
 -->Ejecutar
 
--->pytest test_select.py --alluredir  C:\Python\Proyectos\TEST_PYTHON\src\reports
+-->pytest test_factura_pytest.py --alluredir  C:\Python\Proyectos\TEST_PYTHON\src\reports
 
 -->Generar los html
 
