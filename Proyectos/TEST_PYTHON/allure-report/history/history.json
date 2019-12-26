@@ -1,0 +1,118 @@
+{
+  "159cf7a92e9f650ca44a9f4656288d90" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ecc771343ed2f846",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: Element <a class=\"dropdown-item\" href=\"/inv/subcategorias/new\"> could not be scrolled into view",
+      "time" : {
+        "start" : 1577117137095,
+        "stop" : 1577117149732,
+        "duration" : 12637
+      }
+    } ]
+  },
+  "07dd82056817ce1c7fb1d1ede5c939ad" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c6654e01c0a4a999",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //*[@id='id_usernamerr']",
+      "time" : {
+        "start" : 1577117065861,
+        "stop" : 1577117078326,
+        "duration" : 12465
+      }
+    } ]
+  },
+  "43b6aa10b61f99857ed40bf51a3dec90" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3f81f5ebba1add1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577117078389,
+        "stop" : 1577117087911,
+        "duration" : 9522
+      }
+    } ]
+  },
+  "5f415bfd31bcee1e484b0a301b3518d7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cc59fb159c27344f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577117108134,
+        "stop" : 1577117137091,
+        "duration" : 28957
+      }
+    } ]
+  },
+  "74d8acf29264ab07c6c9241fe7851d93" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bd9ac6d6b259c54f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577117087915,
+        "stop" : 1577117097471,
+        "duration" : 9556
+      }
+    } ]
+  },
+  "50ff886d16f22f0a5a8fe666e1402be2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "62f52677cd682b0a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577117097474,
+        "stop" : 1577117108127,
+        "duration" : 10653
+      }
+    } ]
+  }
+}

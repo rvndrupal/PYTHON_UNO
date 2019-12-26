@@ -1,0 +1,85 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test",
+    "children" : [ {
+      "name" : "test_factura_pytest",
+      "children" : [ {
+        "name" : "test_001",
+        "uid" : "c6654e01c0a4a999",
+        "parentUid" : "cb1521cef19ed72bf0d60d021ba0a895",
+        "status" : "broken",
+        "time" : {
+          "start" : 1577117065861,
+          "stop" : 1577117078326,
+          "duration" : 12465
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_002",
+        "uid" : "3f81f5ebba1add1b",
+        "parentUid" : "cb1521cef19ed72bf0d60d021ba0a895",
+        "status" : "passed",
+        "time" : {
+          "start" : 1577117078389,
+          "stop" : 1577117087911,
+          "duration" : 9522
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_003",
+        "uid" : "bd9ac6d6b259c54f",
+        "parentUid" : "cb1521cef19ed72bf0d60d021ba0a895",
+        "status" : "passed",
+        "time" : {
+          "start" : 1577117087915,
+          "stop" : 1577117097471,
+          "duration" : 9556
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_004",
+        "uid" : "62f52677cd682b0a",
+        "parentUid" : "cb1521cef19ed72bf0d60d021ba0a895",
+        "status" : "passed",
+        "time" : {
+          "start" : 1577117097474,
+          "stop" : 1577117108127,
+          "duration" : 10653
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_Categorias",
+        "uid" : "cc59fb159c27344f",
+        "parentUid" : "cb1521cef19ed72bf0d60d021ba0a895",
+        "status" : "passed",
+        "time" : {
+          "start" : 1577117108134,
+          "stop" : 1577117137091,
+          "duration" : 28957
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_Subcategorias",
+        "uid" : "ecc771343ed2f846",
+        "parentUid" : "cb1521cef19ed72bf0d60d021ba0a895",
+        "status" : "broken",
+        "time" : {
+          "start" : 1577117137095,
+          "stop" : 1577117149732,
+          "duration" : 12637
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cb1521cef19ed72bf0d60d021ba0a895"
+    } ],
+    "uid" : "ff2b04dbb9c449a4d40723f51d841925"
+  } ]
+}

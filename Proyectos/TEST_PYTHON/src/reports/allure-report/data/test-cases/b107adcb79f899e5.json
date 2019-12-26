@@ -1,0 +1,116 @@
+{
+  "uid" : "b107adcb79f899e5",
+  "name" : "test_Categorias",
+  "fullName" : "test.test_factura_pytest#test_Categorias",
+  "historyId" : "5f415bfd31bcee1e484b0a301b3518d7",
+  "time" : {
+    "start" : 1577125993006,
+    "stop" : 1577126019540,
+    "duration" : 26534
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cac5342fb2fea665",
+      "name" : "12f54fb4-d55d-4ab7-9c60-e2e65f240f95-attachment.png",
+      "source" : "cac5342fb2fea665.png",
+      "type" : "image/png",
+      "size" : 323520
+    }, {
+      "uid" : "a70fff57de8659cb",
+      "name" : "c2bfc067-3a4c-4c98-8b25-1555dc15fff1-attachment.png",
+      "source" : "a70fff57de8659cb.png",
+      "type" : "image/png",
+      "size" : 43658
+    }, {
+      "uid" : "84c1b67065a68f9",
+      "name" : "e05a1dfb-b30d-4ed3-a748-7eb0814fb567-attachment.png",
+      "source" : "84c1b67065a68f9.png",
+      "type" : "image/png",
+      "size" : 29969
+    }, {
+      "uid" : "5987faec66b7907a",
+      "name" : "935868e4-f593-40c2-898c-c515b6ed6dc8-attachment.png",
+      "source" : "5987faec66b7907a.png",
+      "type" : "image/png",
+      "size" : 30296
+    }, {
+      "uid" : "330a4e93b16aaffb",
+      "name" : "5a09a22d-9246-4f69-9567-f60dbf5f214b-attachment.png",
+      "source" : "330a4e93b16aaffb.png",
+      "type" : "image/png",
+      "size" : 39986
+    }, {
+      "uid" : "6b4d8a90fcb94f46",
+      "name" : "775f4035-0d12-46eb-9042-74fb729ce8e0-attachment.png",
+      "source" : "6b4d8a90fcb94f46.png",
+      "type" : "image/png",
+      "size" : 39914
+    }, {
+      "uid" : "d6b5226f43beff70",
+      "name" : "56bd0013-c48a-4362-86e5-4f5b86cb961d-attachment.png",
+      "source" : "d6b5226f43beff70.png",
+      "type" : "image/png",
+      "size" : 30349
+    }, {
+      "uid" : "897ac887a1b9a74c",
+      "name" : "0fac3dd5-328e-418a-b72c-7abde79bccd9-attachment.png",
+      "source" : "897ac887a1b9a74c.png",
+      "type" : "image/png",
+      "size" : 39859
+    }, {
+      "uid" : "39a548affb54f74b",
+      "name" : "stdout",
+      "source" : "39a548affb54f74b.txt",
+      "type" : "text/plain",
+      "size" : 209
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "test_factura_pytest"
+  }, {
+    "name" : "host",
+    "value" : "EEXL01RODRIGOIG"
+  }, {
+    "name" : "thread",
+    "value" : "17712-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.test_factura_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b107adcb79f899e5.json",
+  "parameterValues" : [ ]
+}

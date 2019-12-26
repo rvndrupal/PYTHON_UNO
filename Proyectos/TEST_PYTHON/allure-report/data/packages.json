@@ -1,0 +1,81 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test.test_factura_pytest",
+    "children" : [ {
+      "name" : "test_001",
+      "uid" : "c6654e01c0a4a999",
+      "parentUid" : "deef1599b0685c95e1d09e56a98523e8",
+      "status" : "broken",
+      "time" : {
+        "start" : 1577117065861,
+        "stop" : 1577117078326,
+        "duration" : 12465
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_002",
+      "uid" : "3f81f5ebba1add1b",
+      "parentUid" : "deef1599b0685c95e1d09e56a98523e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577117078389,
+        "stop" : 1577117087911,
+        "duration" : 9522
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_003",
+      "uid" : "bd9ac6d6b259c54f",
+      "parentUid" : "deef1599b0685c95e1d09e56a98523e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577117087915,
+        "stop" : 1577117097471,
+        "duration" : 9556
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_004",
+      "uid" : "62f52677cd682b0a",
+      "parentUid" : "deef1599b0685c95e1d09e56a98523e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577117097474,
+        "stop" : 1577117108127,
+        "duration" : 10653
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_Categorias",
+      "uid" : "cc59fb159c27344f",
+      "parentUid" : "deef1599b0685c95e1d09e56a98523e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577117108134,
+        "stop" : 1577117137091,
+        "duration" : 28957
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_Subcategorias",
+      "uid" : "ecc771343ed2f846",
+      "parentUid" : "deef1599b0685c95e1d09e56a98523e8",
+      "status" : "broken",
+      "time" : {
+        "start" : 1577117137095,
+        "stop" : 1577117149732,
+        "duration" : 12637
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "test.test_factura_pytest"
+  } ]
+}

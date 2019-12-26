@@ -45,7 +45,7 @@ pip install --user virtualenv     --> instalar para las librerias.
 
 -->migrar todas librerias.
 
--->pip install -r .\requirements.txt   -->chingon
+-->pip install -r .\requirements.txt   -->chingon INSTALARLAS LIBRERIAS
 
 
 ######################################3

@@ -1,0 +1,41 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //*[@id='id_usernamerr']",
+      "children" : [ {
+        "name" : "test_001",
+        "uid" : "54e14a626e105272",
+        "parentUid" : "187e577ac619572b815f414f8c249a01",
+        "status" : "broken",
+        "time" : {
+          "start" : 1577125951365,
+          "stop" : 1577125963692,
+          "duration" : 12327
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "187e577ac619572b815f414f8c249a01"
+    }, {
+      "name" : "selenium.common.exceptions.ElementNotInteractableException: Message: Element <a class=\"dropdown-item\" href=\"/inv/subcategorias/new\"> could not be scrolled into view",
+      "children" : [ {
+        "name" : "test_Subcategorias",
+        "uid" : "1b0823566677af0a",
+        "parentUid" : "58a3cac92905486979de72ae958d8c52",
+        "status" : "broken",
+        "time" : {
+          "start" : 1577126019543,
+          "stop" : 1577126030526,
+          "duration" : 10983
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "58a3cac92905486979de72ae958d8c52"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

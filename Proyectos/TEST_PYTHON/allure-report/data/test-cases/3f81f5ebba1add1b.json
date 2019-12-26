@@ -1,0 +1,74 @@
+{
+  "uid" : "3f81f5ebba1add1b",
+  "name" : "test_002",
+  "fullName" : "test.test_factura_pytest#test_002",
+  "historyId" : "43b6aa10b61f99857ed40bf51a3dec90",
+  "time" : {
+    "start" : 1577117078389,
+    "stop" : 1577117087911,
+    "duration" : 9522
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8fedeef9c2814e77",
+      "name" : "9c7f3cac-becc-42e0-a75e-fe3f5c527a76-attachment.png",
+      "source" : "8fedeef9c2814e77.png",
+      "type" : "image/png",
+      "size" : 323418
+    }, {
+      "uid" : "942bed8abff7e565",
+      "name" : "stdout",
+      "source" : "942bed8abff7e565.txt",
+      "type" : "text/plain",
+      "size" : 26
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "test_factura_pytest"
+  }, {
+    "name" : "host",
+    "value" : "EEXL01RODRIGOIG"
+  }, {
+    "name" : "thread",
+    "value" : "17328-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.test_factura_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3f81f5ebba1add1b.json",
+  "parameterValues" : [ ]
+}

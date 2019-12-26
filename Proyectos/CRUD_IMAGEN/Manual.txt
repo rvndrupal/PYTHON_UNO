@@ -1,0 +1,65 @@
+Migrar todas las librerias.
+
+pip freeze  > requirements.txt
+
+Instalar ls librerias.
+
+pip install -r .\requirements.txt
+
+###########################3
+Crear maquina virtual
+
+python -m virtualenv mv
+
+################################
+Iniciar Proyecto
+
+django-admin startproject automotora
+
+#################################
+Crear App
+
+python manage.py startapp core
+
+
+
+######################################
+Configurar template del admin 
+
+Entrar al repo 
+
+https://github.com/django/django
+
+ir a django->contrib->admin->templates->admin->base_site   -->copiar el codigo
+
+ojo el que dice base esta muy cabron por que ahi estan los bloques los csss etc.
+
+-->a nivel de directorio raiz crear la carpeta templates
+-->configurar settings.
+
+'DIRS': [
+                os.path.join(BASE_DIR, 'templates/')
+            ],
+
+
+
+
+
+{% extends "admin/base.html" %}
+
+{% block title %}{{ title }} | {{ site_title|default:_('Django site admin') }}{% endblock %}
+
+{% block branding %}
+<h1 id="site-name"><a href="{% url 'admin:index' %}">{{ site_header|default:_('Django administration') }}</a></h1>
+{% endblock %}
+
+{% block nav-global %}{% endblock %}
+
+
+
+
+
+###################################################33
+Subir la imagen
+
+https://simpleisbetterthancomplex.com/tutorial/2016/08/01/how-to-upload-files-with-django.htmls
