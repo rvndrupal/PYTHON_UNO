@@ -7,13 +7,13 @@
       "name" : "selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //*[@id='id_usernamerr']",
       "children" : [ {
         "name" : "test_001",
-        "uid" : "54e14a626e105272",
+        "uid" : "34efc8e25f1595a9",
         "parentUid" : "187e577ac619572b815f414f8c249a01",
         "status" : "broken",
         "time" : {
-          "start" : 1577125951365,
-          "stop" : 1577125963692,
-          "duration" : 12327
+          "start" : 1577402523334,
+          "stop" : 1577402536703,
+          "duration" : 13369
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -23,13 +23,13 @@
       "name" : "selenium.common.exceptions.ElementNotInteractableException: Message: Element <a class=\"dropdown-item\" href=\"/inv/subcategorias/new\"> could not be scrolled into view",
       "children" : [ {
         "name" : "test_Subcategorias",
-        "uid" : "1b0823566677af0a",
+        "uid" : "fcb611a440f66065",
         "parentUid" : "58a3cac92905486979de72ae958d8c52",
         "status" : "broken",
         "time" : {
-          "start" : 1577126019543,
-          "stop" : 1577126030526,
-          "duration" : 10983
+          "start" : 1577402592688,
+          "stop" : 1577402603756,
+          "duration" : 11068
         },
         "flaky" : false,
         "parameters" : [ ]
