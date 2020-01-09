@@ -1,5 +1,5 @@
 1.- Instalar virtualenv
-    -->pip install virtualenv
+    -->pip install virtualenv   --> mut importante tambien cuando se esta migrando de nuevo
 
 -->Iniciamos una virtualenv
     -->virtualenv crud_django01

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.7.6 on win32)" generated="20200108 15:15:35.806" rpa="false">
+<suite id="s1" name="Cinco" source="C:\Python\robotframework\pruebas\cinco\cinco.robot">
+<test id="s1-t1" name="001 Caso uno condicionales">
+<kw name="Abrir navegador">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${pagina}</arg>
+<arg>${navegador}</arg>
+</arguments>
+<msg timestamp="20200108 15:15:36.007" level="INFO">Opening browser 'chrome' to base url 'http://automationpractice.com/index.php'.</msg>
+<status status="PASS" starttime="20200108 15:15:36.006" endtime="20200108 15:15:44.656"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>xpath=//img[contains(@class,'logo img-responsive')]</arg>
+</arguments>
+<status status="PASS" starttime="20200108 15:15:44.656" endtime="20200108 15:15:44.701"></status>
+</kw>
+<status status="PASS" starttime="20200108 15:15:36.006" endtime="20200108 15:15:44.701"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>'${Seleccion}'=='Women'</arg>
+<arg>Select option Women</arg>
+<arg>ELSE</arg>
+<arg>Select option Dress</arg>
+</arguments>
+<kw name="Select option Dress">
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=(//a[@title='Dresses'])[2]</arg>
+</arguments>
+<msg timestamp="20200108 15:15:44.703" level="INFO">Clicking element 'xpath=(//a[@title='Dresses'])[2]'.</msg>
+<status status="PASS" starttime="20200108 15:15:44.703" endtime="20200108 15:15:46.481"></status>
+</kw>
+<kw name="Title Should Be" library="SeleniumLibrary">
+<doc>Verifies that the current page title equals ``title``.</doc>
+<arguments>
+<arg>Dresses - My Store</arg>
+</arguments>
+<msg timestamp="20200108 15:15:46.488" level="INFO">Page title is 'Dresses - My Store'.</msg>
+<status status="PASS" starttime="20200108 15:15:46.481" endtime="20200108 15:15:46.488"></status>
+</kw>
+<status status="PASS" starttime="20200108 15:15:44.703" endtime="20200108 15:15:46.488"></status>
+</kw>
+<status status="PASS" starttime="20200108 15:15:44.702" endtime="20200108 15:15:46.488"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200108 15:15:46.489" endtime="20200108 15:15:48.592"></status>
+</kw>
+<status status="PASS" starttime="20200108 15:15:36.005" endtime="20200108 15:15:48.593" critical="yes"></status>
+</test>
+<doc>Caso de Prueba con condicionales</doc>
+<status status="PASS" starttime="20200108 15:15:35.808" endtime="20200108 15:15:48.595"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Cinco">Cinco</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

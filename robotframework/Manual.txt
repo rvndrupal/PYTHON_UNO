@@ -1,0 +1,50 @@
+Página -->   https://robotframework.org/
+
+Instalar-->  pip install robotframework
+
+Poner los Drivers en python 
+
+######################################
+Lista paginas Drivers
+
+Chromedriver: http://chromedriver.chromium.org/
+
+Mozilla Firefox Driver: https://github.com/mozilla/geckodriver/releases
+
+Internet Explorer Driver: 
+
+http://selenium-release.storage.googleapis.com/index.html
+
+######################################
+
+
+Instalar Selenium dos Librery.
+
+https://github.com/robotframework/Selenium2Library
+
+pip install --upgrade robotframework-selenium2library  ó
+
+pip install  robotframework-selenium2library
+
+
+##############################################
+
+Página de Practica 
+
+http://automationpractice.com/index.php
+
+
+##################################################
+Documentación Selenium2Library robot framework
+
+https://robotframework.org/Selenium2Library/Selenium2Library.html
+
+
+####################################################
+Para correr los casos de prueba.
+
+robot  <nombre archivo> enter
+
+mirar reporte --> open report.html
+
+mirar log  --> open log.html

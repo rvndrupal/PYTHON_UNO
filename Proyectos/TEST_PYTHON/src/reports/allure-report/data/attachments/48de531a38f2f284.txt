@@ -1,8 +1,0 @@
-Carga ok
-Menu nuevo ok
-Carga nuevo texto NuevaTest
-Carga del nuevo texto a Guardar
-Buscando la palabra Nueva ok
-Buscando la palabra pyt ok
-Se modifica la palabra python ok
-Se muestra ultima busqueda python ok

@@ -1,7 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Thu Dec 26 17:22:46 CST 2019","Thu Dec 26 17:23:12 CST 2019","26436","test","test_factura_pytest","","","","test_Categorias",""
-"broken","Thu Dec 26 17:23:12 CST 2019","Thu Dec 26 17:23:23 CST 2019","11068","test","test_factura_pytest","","","","test_Subcategorias",""
-"broken","Thu Dec 26 17:22:03 CST 2019","Thu Dec 26 17:22:16 CST 2019","13369","test","test_factura_pytest","","","","test_001",""
-"passed","Thu Dec 26 17:22:16 CST 2019","Thu Dec 26 17:22:26 CST 2019","9681","test","test_factura_pytest","","","","test_002",""
-"passed","Thu Dec 26 17:22:36 CST 2019","Thu Dec 26 17:22:46 CST 2019","9952","test","test_factura_pytest","","","","test_004",""
-"passed","Thu Dec 26 17:22:26 CST 2019","Thu Dec 26 17:22:36 CST 2019","9804","test","test_factura_pytest","","","","test_003",""
