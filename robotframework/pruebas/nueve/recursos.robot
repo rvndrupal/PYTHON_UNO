@@ -1,6 +1,10 @@
 ***Settings***
 Library     SeleniumLibrary
 
+***Variables***
+${navegador}    chrome
+${url}          http://automationpractice.com/index.php
+
 
 ***Keywords***
 Abrir navegador
