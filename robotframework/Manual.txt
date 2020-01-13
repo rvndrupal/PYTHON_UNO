@@ -2,6 +2,22 @@ Página -->   https://robotframework.org/
 
 Instalar-->  pip install robotframework
 
+#############################################################
+Install reportes --> pip install allure-robotframework
+
+--> pip install robotframework-allurereport
+
+--> pip install robotframework-allure
+
+--> correr--> robot --listener allure_robotframework <name>
+
+--> correr dos --> pabot --listener allure_robotframework <name>
+generar --> allure serve ./results/allure 
+
+
+
+##############################################################
+
 Poner los Drivers en python 
 
 ######################################
@@ -48,3 +64,10 @@ robot  <nombre archivo> enter
 mirar reporte --> open report.html
 
 mirar log  --> open log.html
+
+
+
+############################################
+Respaldo de Librerias
+
+pip freeze  > requirements.txt
