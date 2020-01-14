@@ -26,3 +26,11 @@ Resource    recursos.robot
     Visible  xpath=//h1[contains(@itemprop,'namess')]
     USF
     Cerrar
+
+003 Buscar texto
+    Abrir navegador
+    Tiempo  .8
+    Ventana  1800   1000  
+    Focus    xpath=(//a[@data-toggle='tab'])[1]
+   
+    Cerrar

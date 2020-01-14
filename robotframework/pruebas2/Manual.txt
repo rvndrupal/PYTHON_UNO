@@ -1,3 +1,11 @@
 Corre Aplicación
 
 pibot -d results amazon.robot
+
+
+################################################3
+Generar triggers ejecución de tareas desde windows
+
+1.-->task ó programador tareas en español
+2.-->Crear Carpeta
+3.-->Crear tarea

@@ -3,14 +3,14 @@ Library     SeleniumLibrary
 
 ***Variables***
 ${navegador}    chrome
-#${url}          http://automationpractice.com/index.php
-${url}          https://www.amazon.com/
+#${url}         http://automationpractice.com/index.php
+${url}          https://www.amazon.com.mx/?ref=icp_country_us_t1
 
 
 ***Keywords***
 Abrir navegador
     Open Browser    ${url}   ${navegador}
-    Wait Until Element is Visible  xpath=//img[contains(@class,'logo img-responsive')]
+   
 
 Cerrar
     Close Browser
@@ -41,8 +41,12 @@ NoVisible
     Element Should Not Be Visible   ${arg1}
 
 Texto
+    [Arguments]    ${arg1}  ${arg2}
+    Input Text   ${arg1}    ${arg2}
+
+Tiempo2
     [Arguments]    ${arg1}
-    Input Text   ${arg1}
+    Set Selenium Timeout    ${arg1} second
 
 #Opciones del Raton
 ##################################
