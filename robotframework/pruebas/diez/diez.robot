@@ -3,7 +3,7 @@ Documentation   Prueba uno Amazon
 Library     String
 Resource    recursos.robot
 
-#robot -d result Test/amazon.robot
+#robot -d result  diez.robot
 
 ***Variables***
 @{items}    7   8   9   10   11   12    13
@@ -35,7 +35,12 @@ Resource    recursos.robot
     :FOR    ${item}    IN   @{items}
     \    MO     xpath=(//input[contains(@class,'a-button-input')])[${item}]
     MO  xpath=(//input[@class='a-button-input'])[7]
-    Click  xpath=//div[@id='magnifierLens']
+    Click  xpath=//input[contains(@id,'add-to-cart-button')]
+    Click  xpath=(//span[@class='a-label a-checkbox-label'][contains(.,'Es un regalo')])[1]
+    Click   xpath=(//a[contains(@id,'hlb-ptc-btn-native')])[1]
+    Texto   xpath=//input[@id='ap_email']    rodrigodrupal1@gmail.com
+    Click   xpath=//input[@id='continue']
+    Texto   xpath=//input[contains(@id,'ap_password')]      demo de la contraseña
 
     Cerrar
 
