@@ -8,6 +8,8 @@ Resource    recursos.robot
 ***Variables***
 @{items}    7   8   9   10   11   12    13
 ${buscar}   xpath=(//span[contains(.,'Amazon México')])[3]
+${url}         https://www.amazon.com.mx/?ref=icp_country_us_t1
+${navegador}    chrome
 
 ***Keywords*****
 Buscar pelota

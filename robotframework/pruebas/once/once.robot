@@ -9,6 +9,8 @@ Resource    ../recursos.robot
 @{items}    7   8   9   10   11   12    13
 ${buscar}   xpath=(//span[contains(.,'Amazon México')])[3]
 ${tiempo}   .1
+${url}          http://www.practiceselenium.com/practice-form.html
+${navegador}    chrome
 
 ***Keywords*****
 

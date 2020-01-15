@@ -3,10 +3,11 @@ Library     SeleniumLibrary
 Library     String
 
 ***Variables***
-${navegador}    chrome
+#${navegador}    chrome
 #${url}         http://automationpractice.com/index.php
 #${url}         https://www.amazon.com.mx/?ref=icp_country_us_t1
-${url}          http://www.practiceselenium.com/practice-form.html
+#${url}          http://www.practiceselenium.com/practice-form.html
+#${url}          http://demowebshop.tricentis.com/register
 
 
 ***Keywords***
@@ -68,6 +69,23 @@ Titulo
 Dormir
     [Arguments]    ${arg1}
     sleep    ${arg1} 
+
+Dormir Todos
+    [Arguments]    ${arg1}
+    set selenium speed    ${arg1} seconds
+
+Print
+    [Arguments]    ${arg1}
+    log to console    ${arg1} 
+
+Esperar Objeto
+    [Arguments]    ${arg1}
+    Wait Until Page Contains    ${arg1} 
+
+Esperar Iniciar
+    [Arguments]    ${arg1}
+    Set Selenium Timeout    ${arg1} seconds
+    
 
 # If
 #     [Arguments]     ${arg1}     ${arg2}     ${arg3}
