@@ -5,7 +5,8 @@ Library     String
 ***Variables***
 ${navegador}    chrome
 #${url}         http://automationpractice.com/index.php
-${url}          https://www.amazon.com.mx/?ref=icp_country_us_t1
+#${url}         https://www.amazon.com.mx/?ref=icp_country_us_t1
+${url}          http://www.practiceselenium.com/practice-form.html
 
 
 ***Keywords***
@@ -64,6 +65,10 @@ Titulo
     [Arguments]    ${arg1}
     Title Should Be    ${arg1} 
 
+Dormir
+    [Arguments]    ${arg1}
+    sleep    ${arg1} 
+
 # If
 #     [Arguments]     ${arg1}     ${arg2}     ${arg3}
 #     Run Keyword if      '${arg1}'=='${arg2}'  ${arg3}
@@ -74,10 +79,36 @@ MO
     [Arguments]    ${arg1}
     Mouse Over   ${arg1}
 
-
-
    
 ###################################
+
+
+#################################
+#Select radio
+SR
+    [Arguments]    ${arg1}  ${arg2}
+    Select Radio Button   ${arg1}   ${arg2}
+
+#Select checkbox
+SC
+    [Arguments]    ${arg1}  
+    Select Checkbox	   ${arg1}  
+
+USC
+    [Arguments]    ${arg1}  
+    Unselect Checkbox   ${arg1}  
+
+#Select lista
+SLI
+    [Arguments]    ${arg1}  ${arg2}
+    Select From List By Index   ${arg1}     ${arg2}
+SLL
+    [Arguments]    ${arg1}  ${arg2}
+    Select From List By Label   ${arg1}    ${arg2}
+
+
+    
+#################################
 
 SF
     #SELECCIONAR UN IFRAME
