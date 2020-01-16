@@ -71,3 +71,12 @@ mirar log  --> open log.html
 Respaldo de Librerias
 
 pip freeze  > requirements.txt
+
+
+
+############################################
+Checar pagina muy importante de  Selenium
+
+https://selenium.dev/
+
+https://selenium.dev/selenium/docs/api/py/index.html

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.1.2 (Python 3.7.6 on win32)" generated="20200115 14:10:01.852" rpa="false">
+<robot generator="Robot 3.1.2 (Python 3.7.6 on win32)" generated="20200116 12:50:00.331" rpa="false">
 <suite id="s1" name="Ocho" source="c:\Python\robotframework\pruebas\ocho\ocho.robot">
 <test id="s1-t1" name="001 Prueba uno de la sección del ojo">
 <kw name="Abrir navegador" library="recursos">
@@ -9,17 +9,17 @@
 <arg>${url}</arg>
 <arg>${navegador}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:02.337" level="INFO">Opening browser 'chrome' to base url 'http://automationpractice.com/index.php'.</msg>
-<status status="PASS" starttime="20200115 14:10:02.337" endtime="20200115 14:10:08.038"></status>
+<msg timestamp="20200116 12:50:01.117" level="INFO">Opening browser 'chrome' to base url 'http://automationpractice.com/index.php'.</msg>
+<status status="PASS" starttime="20200116 12:50:01.117" endtime="20200116 12:50:07.470"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <doc>Waits until the element ``locator`` is visible.</doc>
 <arguments>
 <arg>xpath=//img[contains(@class,'logo img-responsive')]</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:10:08.039" endtime="20200115 14:10:08.070"></status>
+<status status="PASS" starttime="20200116 12:50:07.471" endtime="20200116 12:50:07.496"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:02.337" endtime="20200115 14:10:08.070"></status>
+<status status="PASS" starttime="20200116 12:50:01.117" endtime="20200116 12:50:07.496"></status>
 </kw>
 <kw name="Focus" library="recursos">
 <arguments>
@@ -30,9 +30,9 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:10:08.071" endtime="20200115 14:10:08.089"></status>
+<status status="PASS" starttime="20200116 12:50:07.496" endtime="20200116 12:50:07.514"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:08.070" endtime="20200115 14:10:08.089"></status>
+<status status="PASS" starttime="20200116 12:50:07.496" endtime="20200116 12:50:07.514"></status>
 </kw>
 <kw name="Tiempo" library="recursos">
 <arguments>
@@ -43,9 +43,9 @@
 <arguments>
 <arg>${arg1} seconds</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:10:08.090" endtime="20200115 14:10:08.090"></status>
+<status status="PASS" starttime="20200116 12:50:07.515" endtime="20200116 12:50:07.516"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:08.089" endtime="20200115 14:10:08.090"></status>
+<status status="PASS" starttime="20200116 12:50:07.515" endtime="20200116 12:50:07.516"></status>
 </kw>
 <kw name="Ventana" library="recursos">
 <arguments>
@@ -58,9 +58,9 @@
 <arg>${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:10:08.090" endtime="20200115 14:10:10.023"></status>
+<status status="PASS" starttime="20200116 12:50:07.516" endtime="20200116 12:50:09.437"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:08.090" endtime="20200115 14:10:10.023"></status>
+<status status="PASS" starttime="20200116 12:50:07.516" endtime="20200116 12:50:09.437"></status>
 </kw>
 <kw name="Ventana" library="recursos">
 <arguments>
@@ -73,9 +73,9 @@
 <arg>${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:10:10.023" endtime="20200115 14:10:10.945"></status>
+<status status="PASS" starttime="20200116 12:50:09.438" endtime="20200116 12:50:10.355"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:10.023" endtime="20200115 14:10:10.945"></status>
+<status status="PASS" starttime="20200116 12:50:09.438" endtime="20200116 12:50:10.355"></status>
 </kw>
 <kw name="Tiempo" library="recursos">
 <arguments>
@@ -86,9 +86,9 @@
 <arguments>
 <arg>${arg1} seconds</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:10:10.946" endtime="20200115 14:10:10.946"></status>
+<status status="PASS" starttime="20200116 12:50:10.356" endtime="20200116 12:50:10.356"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:10.945" endtime="20200115 14:10:10.946"></status>
+<status status="PASS" starttime="20200116 12:50:10.355" endtime="20200116 12:50:10.356"></status>
 </kw>
 <kw name="${item} IN [ @{items} ]" type="for">
 <kw name="${item} = 1" type="foritem">
@@ -101,9 +101,9 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:10:10.947" endtime="20200115 14:10:11.178"></status>
+<status status="PASS" starttime="20200116 12:50:10.357" endtime="20200116 12:50:10.581"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:10.946" endtime="20200115 14:10:11.178"></status>
+<status status="PASS" starttime="20200116 12:50:10.357" endtime="20200116 12:50:10.581"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -113,16 +113,16 @@
 <assign>
 <var>${nomT}</var>
 </assign>
-<msg timestamp="20200115 14:10:11.392" level="INFO">${nomT} = Faded Short Sleeve T-shirts</msg>
-<status status="PASS" starttime="20200115 14:10:11.178" endtime="20200115 14:10:11.392"></status>
+<msg timestamp="20200116 12:50:10.803" level="INFO">${nomT} = Faded Short Sleeve T-shirts</msg>
+<status status="PASS" starttime="20200116 12:50:10.581" endtime="20200116 12:50:10.803"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${nomT}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:11.392" level="INFO">Faded Short Sleeve T-shirts</msg>
-<status status="PASS" starttime="20200115 14:10:11.392" endtime="20200115 14:10:11.392"></status>
+<msg timestamp="20200116 12:50:10.804" level="INFO">Faded Short Sleeve T-shirts</msg>
+<status status="PASS" starttime="20200116 12:50:10.803" endtime="20200116 12:50:10.804"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -133,10 +133,10 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:11.392" level="INFO">Clicking element 'xpath=(//i[@class='icon-eye-open'])[1]'.</msg>
-<status status="PASS" starttime="20200115 14:10:11.392" endtime="20200115 14:10:11.687"></status>
+<msg timestamp="20200116 12:50:10.804" level="INFO">Clicking element 'xpath=(//i[@class='icon-eye-open'])[1]'.</msg>
+<status status="PASS" starttime="20200116 12:50:10.804" endtime="20200116 12:50:11.099"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:11.392" endtime="20200115 14:10:11.687"></status>
+<status status="PASS" starttime="20200116 12:50:10.804" endtime="20200116 12:50:11.099"></status>
 </kw>
 <kw name="Visible" library="recursos">
 <arguments>
@@ -147,9 +147,9 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:10:11.687" endtime="20200115 14:10:13.173"></status>
+<status status="PASS" starttime="20200116 12:50:11.099" endtime="20200116 12:50:13.077"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:11.687" endtime="20200115 14:10:13.173"></status>
+<status status="PASS" starttime="20200116 12:50:11.099" endtime="20200116 12:50:13.077"></status>
 </kw>
 <kw name="SF" library="recursos">
 <arguments>
@@ -160,10 +160,10 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:13.173" level="INFO">Selecting frame 'xpath=//*[@id="index"]/div[2]/div/div/div/div/iframe'.</msg>
-<status status="PASS" starttime="20200115 14:10:13.173" endtime="20200115 14:10:13.408"></status>
+<msg timestamp="20200116 12:50:13.077" level="INFO">Selecting frame 'xpath=//*[@id="index"]/div[2]/div/div/div/div/iframe'.</msg>
+<status status="PASS" starttime="20200116 12:50:13.077" endtime="20200116 12:50:13.318"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:13.173" endtime="20200115 14:10:13.408"></status>
+<status status="PASS" starttime="20200116 12:50:13.077" endtime="20200116 12:50:13.318"></status>
 </kw>
 <kw name="Visible" library="recursos">
 <arguments>
@@ -174,17 +174,17 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:10:13.408" endtime="20200115 14:10:13.641"></status>
+<status status="PASS" starttime="20200116 12:50:13.319" endtime="20200116 12:50:13.557"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:13.408" endtime="20200115 14:10:13.641"></status>
+<status status="PASS" starttime="20200116 12:50:13.318" endtime="20200116 12:50:13.557"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${titulo}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:13.641" level="INFO">xpath=//h1[contains(@itemprop,'name')]</msg>
-<status status="PASS" starttime="20200115 14:10:13.641" endtime="20200115 14:10:13.641"></status>
+<msg timestamp="20200116 12:50:13.558" level="INFO">xpath=//h1[contains(@itemprop,'name')]</msg>
+<status status="PASS" starttime="20200116 12:50:13.557" endtime="20200116 12:50:13.558"></status>
 </kw>
 <kw name="Comparar" library="recursos">
 <arguments>
@@ -197,17 +197,17 @@
 <arg>${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:13.642" level="INFO">Verifying element 'xpath=//h1[contains(@itemprop,'name')]' contains exact text 'Faded Short Sleeve T-shirts'.</msg>
-<status status="PASS" starttime="20200115 14:10:13.642" endtime="20200115 14:10:13.865"></status>
+<msg timestamp="20200116 12:50:13.559" level="INFO">Verifying element 'xpath=//h1[contains(@itemprop,'name')]' contains exact text 'Faded Short Sleeve T-shirts'.</msg>
+<status status="PASS" starttime="20200116 12:50:13.559" endtime="20200116 12:50:13.794"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:13.641" endtime="20200115 14:10:13.865"></status>
+<status status="PASS" starttime="20200116 12:50:13.558" endtime="20200116 12:50:13.794"></status>
 </kw>
 <kw name="USF" library="recursos">
 <kw name="Unselect Frame" library="SeleniumLibrary">
 <doc>Sets the main frame as the current frame.</doc>
-<status status="PASS" starttime="20200115 14:10:13.866" endtime="20200115 14:10:13.970"></status>
+<status status="PASS" starttime="20200116 12:50:13.795" endtime="20200116 12:50:13.900"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:13.865" endtime="20200115 14:10:13.970"></status>
+<status status="PASS" starttime="20200116 12:50:13.794" endtime="20200116 12:50:13.900"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -218,12 +218,12 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:13.970" level="INFO">Clicking element 'xpath=//a[@title='Close']'.</msg>
-<status status="PASS" starttime="20200115 14:10:13.970" endtime="20200115 14:10:14.239"></status>
+<msg timestamp="20200116 12:50:13.902" level="INFO">Clicking element 'xpath=//a[@title='Close']'.</msg>
+<status status="PASS" starttime="20200116 12:50:13.902" endtime="20200116 12:50:14.160"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:13.970" endtime="20200115 14:10:14.239"></status>
+<status status="PASS" starttime="20200116 12:50:13.900" endtime="20200116 12:50:14.161"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:10.946" endtime="20200115 14:10:14.239"></status>
+<status status="PASS" starttime="20200116 12:50:10.357" endtime="20200116 12:50:14.161"></status>
 </kw>
 <kw name="${item} = 2" type="foritem">
 <kw name="Focus" library="recursos">
@@ -235,9 +235,9 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:10:14.239" endtime="20200115 14:10:14.457"></status>
+<status status="PASS" starttime="20200116 12:50:14.162" endtime="20200116 12:50:14.401"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:14.239" endtime="20200115 14:10:14.457"></status>
+<status status="PASS" starttime="20200116 12:50:14.161" endtime="20200116 12:50:14.401"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -247,16 +247,16 @@
 <assign>
 <var>${nomT}</var>
 </assign>
-<msg timestamp="20200115 14:10:14.701" level="INFO">${nomT} = Blouse</msg>
-<status status="PASS" starttime="20200115 14:10:14.457" endtime="20200115 14:10:14.701"></status>
+<msg timestamp="20200116 12:50:14.638" level="INFO">${nomT} = Blouse</msg>
+<status status="PASS" starttime="20200116 12:50:14.401" endtime="20200116 12:50:14.638"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${nomT}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:14.701" level="INFO">Blouse</msg>
-<status status="PASS" starttime="20200115 14:10:14.701" endtime="20200115 14:10:14.701"></status>
+<msg timestamp="20200116 12:50:14.638" level="INFO">Blouse</msg>
+<status status="PASS" starttime="20200116 12:50:14.638" endtime="20200116 12:50:14.639"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -267,10 +267,10 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:14.702" level="INFO">Clicking element 'xpath=(//i[@class='icon-eye-open'])[2]'.</msg>
-<status status="PASS" starttime="20200115 14:10:14.701" endtime="20200115 14:10:15.006"></status>
+<msg timestamp="20200116 12:50:14.640" level="INFO">Clicking element 'xpath=(//i[@class='icon-eye-open'])[2]'.</msg>
+<status status="PASS" starttime="20200116 12:50:14.639" endtime="20200116 12:50:14.945"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:14.701" endtime="20200115 14:10:15.006"></status>
+<status status="PASS" starttime="20200116 12:50:14.639" endtime="20200116 12:50:14.945"></status>
 </kw>
 <kw name="Visible" library="recursos">
 <arguments>
@@ -281,9 +281,9 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:10:15.006" endtime="20200115 14:10:16.064"></status>
+<status status="PASS" starttime="20200116 12:50:14.945" endtime="20200116 12:50:16.015"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:15.006" endtime="20200115 14:10:16.064"></status>
+<status status="PASS" starttime="20200116 12:50:14.945" endtime="20200116 12:50:16.015"></status>
 </kw>
 <kw name="SF" library="recursos">
 <arguments>
@@ -294,10 +294,10 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:16.065" level="INFO">Selecting frame 'xpath=//*[@id="index"]/div[2]/div/div/div/div/iframe'.</msg>
-<status status="PASS" starttime="20200115 14:10:16.065" endtime="20200115 14:10:16.325"></status>
+<msg timestamp="20200116 12:50:16.016" level="INFO">Selecting frame 'xpath=//*[@id="index"]/div[2]/div/div/div/div/iframe'.</msg>
+<status status="PASS" starttime="20200116 12:50:16.016" endtime="20200116 12:50:16.258"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:16.064" endtime="20200115 14:10:16.325"></status>
+<status status="PASS" starttime="20200116 12:50:16.015" endtime="20200116 12:50:16.258"></status>
 </kw>
 <kw name="Visible" library="recursos">
 <arguments>
@@ -308,17 +308,17 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:10:16.325" endtime="20200115 14:10:16.536"></status>
+<status status="PASS" starttime="20200116 12:50:16.258" endtime="20200116 12:50:16.480"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:16.325" endtime="20200115 14:10:16.536"></status>
+<status status="PASS" starttime="20200116 12:50:16.258" endtime="20200116 12:50:16.480"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${titulo}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:16.536" level="INFO">xpath=//h1[contains(@itemprop,'name')]</msg>
-<status status="PASS" starttime="20200115 14:10:16.536" endtime="20200115 14:10:16.536"></status>
+<msg timestamp="20200116 12:50:16.480" level="INFO">xpath=//h1[contains(@itemprop,'name')]</msg>
+<status status="PASS" starttime="20200116 12:50:16.480" endtime="20200116 12:50:16.480"></status>
 </kw>
 <kw name="Comparar" library="recursos">
 <arguments>
@@ -331,17 +331,17 @@
 <arg>${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:16.537" level="INFO">Verifying element 'xpath=//h1[contains(@itemprop,'name')]' contains exact text 'Blouse'.</msg>
-<status status="PASS" starttime="20200115 14:10:16.537" endtime="20200115 14:10:16.756"></status>
+<msg timestamp="20200116 12:50:16.481" level="INFO">Verifying element 'xpath=//h1[contains(@itemprop,'name')]' contains exact text 'Blouse'.</msg>
+<status status="PASS" starttime="20200116 12:50:16.481" endtime="20200116 12:50:16.705"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:16.536" endtime="20200115 14:10:16.756"></status>
+<status status="PASS" starttime="20200116 12:50:16.480" endtime="20200116 12:50:16.705"></status>
 </kw>
 <kw name="USF" library="recursos">
 <kw name="Unselect Frame" library="SeleniumLibrary">
 <doc>Sets the main frame as the current frame.</doc>
-<status status="PASS" starttime="20200115 14:10:16.756" endtime="20200115 14:10:16.860"></status>
+<status status="PASS" starttime="20200116 12:50:16.706" endtime="20200116 12:50:16.810"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:16.756" endtime="20200115 14:10:16.860"></status>
+<status status="PASS" starttime="20200116 12:50:16.706" endtime="20200116 12:50:16.810"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -352,12 +352,12 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:16.861" level="INFO">Clicking element 'xpath=//a[@title='Close']'.</msg>
-<status status="PASS" starttime="20200115 14:10:16.860" endtime="20200115 14:10:17.120"></status>
+<msg timestamp="20200116 12:50:16.812" level="INFO">Clicking element 'xpath=//a[@title='Close']'.</msg>
+<status status="PASS" starttime="20200116 12:50:16.812" endtime="20200116 12:50:17.113"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:16.860" endtime="20200115 14:10:17.120"></status>
+<status status="PASS" starttime="20200116 12:50:16.811" endtime="20200116 12:50:17.113"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:14.239" endtime="20200115 14:10:17.120"></status>
+<status status="PASS" starttime="20200116 12:50:14.161" endtime="20200116 12:50:17.113"></status>
 </kw>
 <kw name="${item} = 3" type="foritem">
 <kw name="Focus" library="recursos">
@@ -369,9 +369,9 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:10:17.120" endtime="20200115 14:10:17.337"></status>
+<status status="PASS" starttime="20200116 12:50:17.113" endtime="20200116 12:50:17.334"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:17.120" endtime="20200115 14:10:17.337"></status>
+<status status="PASS" starttime="20200116 12:50:17.113" endtime="20200116 12:50:17.334"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -381,16 +381,16 @@
 <assign>
 <var>${nomT}</var>
 </assign>
-<msg timestamp="20200115 14:10:17.557" level="INFO">${nomT} = Printed Dress</msg>
-<status status="PASS" starttime="20200115 14:10:17.337" endtime="20200115 14:10:17.557"></status>
+<msg timestamp="20200116 12:50:17.557" level="INFO">${nomT} = Printed Dress</msg>
+<status status="PASS" starttime="20200116 12:50:17.334" endtime="20200116 12:50:17.558"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${nomT}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:17.557" level="INFO">Printed Dress</msg>
-<status status="PASS" starttime="20200115 14:10:17.557" endtime="20200115 14:10:17.557"></status>
+<msg timestamp="20200116 12:50:17.559" level="INFO">Printed Dress</msg>
+<status status="PASS" starttime="20200116 12:50:17.558" endtime="20200116 12:50:17.559"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -401,10 +401,10 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:17.558" level="INFO">Clicking element 'xpath=(//i[@class='icon-eye-open'])[3]'.</msg>
-<status status="PASS" starttime="20200115 14:10:17.558" endtime="20200115 14:10:17.837"></status>
+<msg timestamp="20200116 12:50:17.561" level="INFO">Clicking element 'xpath=(//i[@class='icon-eye-open'])[3]'.</msg>
+<status status="PASS" starttime="20200116 12:50:17.561" endtime="20200116 12:50:17.902"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:17.557" endtime="20200115 14:10:17.837"></status>
+<status status="PASS" starttime="20200116 12:50:17.559" endtime="20200116 12:50:17.902"></status>
 </kw>
 <kw name="Visible" library="recursos">
 <arguments>
@@ -415,9 +415,9 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:10:17.837" endtime="20200115 14:10:18.548"></status>
+<status status="PASS" starttime="20200116 12:50:17.903" endtime="20200116 12:50:19.003"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:17.837" endtime="20200115 14:10:18.548"></status>
+<status status="PASS" starttime="20200116 12:50:17.903" endtime="20200116 12:50:19.003"></status>
 </kw>
 <kw name="SF" library="recursos">
 <arguments>
@@ -428,10 +428,10 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:18.549" level="INFO">Selecting frame 'xpath=//*[@id="index"]/div[2]/div/div/div/div/iframe'.</msg>
-<status status="PASS" starttime="20200115 14:10:18.549" endtime="20200115 14:10:18.779"></status>
+<msg timestamp="20200116 12:50:19.004" level="INFO">Selecting frame 'xpath=//*[@id="index"]/div[2]/div/div/div/div/iframe'.</msg>
+<status status="PASS" starttime="20200116 12:50:19.004" endtime="20200116 12:50:19.264"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:18.548" endtime="20200115 14:10:18.779"></status>
+<status status="PASS" starttime="20200116 12:50:19.003" endtime="20200116 12:50:19.265"></status>
 </kw>
 <kw name="Visible" library="recursos">
 <arguments>
@@ -442,17 +442,17 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:10:18.779" endtime="20200115 14:10:19.004"></status>
+<status status="PASS" starttime="20200116 12:50:19.266" endtime="20200116 12:50:19.516"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:18.779" endtime="20200115 14:10:19.004"></status>
+<status status="PASS" starttime="20200116 12:50:19.265" endtime="20200116 12:50:19.516"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${titulo}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:19.004" level="INFO">xpath=//h1[contains(@itemprop,'name')]</msg>
-<status status="PASS" starttime="20200115 14:10:19.004" endtime="20200115 14:10:19.004"></status>
+<msg timestamp="20200116 12:50:19.517" level="INFO">xpath=//h1[contains(@itemprop,'name')]</msg>
+<status status="PASS" starttime="20200116 12:50:19.517" endtime="20200116 12:50:19.518"></status>
 </kw>
 <kw name="Comparar" library="recursos">
 <arguments>
@@ -465,17 +465,17 @@
 <arg>${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:19.004" level="INFO">Verifying element 'xpath=//h1[contains(@itemprop,'name')]' contains exact text 'Printed Dress'.</msg>
-<status status="PASS" starttime="20200115 14:10:19.004" endtime="20200115 14:10:19.223"></status>
+<msg timestamp="20200116 12:50:19.520" level="INFO">Verifying element 'xpath=//h1[contains(@itemprop,'name')]' contains exact text 'Printed Dress'.</msg>
+<status status="PASS" starttime="20200116 12:50:19.519" endtime="20200116 12:50:19.775"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:19.004" endtime="20200115 14:10:19.223"></status>
+<status status="PASS" starttime="20200116 12:50:19.518" endtime="20200116 12:50:19.776"></status>
 </kw>
 <kw name="USF" library="recursos">
 <kw name="Unselect Frame" library="SeleniumLibrary">
 <doc>Sets the main frame as the current frame.</doc>
-<status status="PASS" starttime="20200115 14:10:19.223" endtime="20200115 14:10:19.332"></status>
+<status status="PASS" starttime="20200116 12:50:19.777" endtime="20200116 12:50:19.884"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:19.223" endtime="20200115 14:10:19.332"></status>
+<status status="PASS" starttime="20200116 12:50:19.776" endtime="20200116 12:50:19.884"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -486,12 +486,12 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:19.332" level="INFO">Clicking element 'xpath=//a[@title='Close']'.</msg>
-<status status="PASS" starttime="20200115 14:10:19.332" endtime="20200115 14:10:19.576"></status>
+<msg timestamp="20200116 12:50:19.886" level="INFO">Clicking element 'xpath=//a[@title='Close']'.</msg>
+<status status="PASS" starttime="20200116 12:50:19.885" endtime="20200116 12:50:20.183"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:19.332" endtime="20200115 14:10:19.576"></status>
+<status status="PASS" starttime="20200116 12:50:19.885" endtime="20200116 12:50:20.184"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:17.120" endtime="20200115 14:10:19.576"></status>
+<status status="PASS" starttime="20200116 12:50:17.113" endtime="20200116 12:50:20.184"></status>
 </kw>
 <kw name="${item} = 4" type="foritem">
 <kw name="Focus" library="recursos">
@@ -503,9 +503,9 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:10:19.576" endtime="20200115 14:10:19.794"></status>
+<status status="PASS" starttime="20200116 12:50:20.185" endtime="20200116 12:50:20.414"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:19.576" endtime="20200115 14:10:19.794"></status>
+<status status="PASS" starttime="20200116 12:50:20.184" endtime="20200116 12:50:20.414"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -515,16 +515,16 @@
 <assign>
 <var>${nomT}</var>
 </assign>
-<msg timestamp="20200115 14:10:20.016" level="INFO">${nomT} = Printed Dress</msg>
-<status status="PASS" starttime="20200115 14:10:19.794" endtime="20200115 14:10:20.016"></status>
+<msg timestamp="20200116 12:50:20.644" level="INFO">${nomT} = Printed Dress</msg>
+<status status="PASS" starttime="20200116 12:50:20.414" endtime="20200116 12:50:20.644"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${nomT}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:20.016" level="INFO">Printed Dress</msg>
-<status status="PASS" starttime="20200115 14:10:20.016" endtime="20200115 14:10:20.016"></status>
+<msg timestamp="20200116 12:50:20.645" level="INFO">Printed Dress</msg>
+<status status="PASS" starttime="20200116 12:50:20.645" endtime="20200116 12:50:20.645"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -535,10 +535,10 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:20.017" level="INFO">Clicking element 'xpath=(//i[@class='icon-eye-open'])[4]'.</msg>
-<status status="PASS" starttime="20200115 14:10:20.017" endtime="20200115 14:10:20.298"></status>
+<msg timestamp="20200116 12:50:20.647" level="INFO">Clicking element 'xpath=(//i[@class='icon-eye-open'])[4]'.</msg>
+<status status="PASS" starttime="20200116 12:50:20.647" endtime="20200116 12:50:20.992"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:20.016" endtime="20200115 14:10:20.298"></status>
+<status status="PASS" starttime="20200116 12:50:20.646" endtime="20200116 12:50:20.992"></status>
 </kw>
 <kw name="Visible" library="recursos">
 <arguments>
@@ -549,9 +549,9 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:10:20.298" endtime="20200115 14:10:21.363"></status>
+<status status="PASS" starttime="20200116 12:50:20.993" endtime="20200116 12:50:22.109"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:20.298" endtime="20200115 14:10:21.363"></status>
+<status status="PASS" starttime="20200116 12:50:20.993" endtime="20200116 12:50:22.110"></status>
 </kw>
 <kw name="SF" library="recursos">
 <arguments>
@@ -562,10 +562,10 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:21.363" level="INFO">Selecting frame 'xpath=//*[@id="index"]/div[2]/div/div/div/div/iframe'.</msg>
-<status status="PASS" starttime="20200115 14:10:21.363" endtime="20200115 14:10:21.605"></status>
+<msg timestamp="20200116 12:50:22.111" level="INFO">Selecting frame 'xpath=//*[@id="index"]/div[2]/div/div/div/div/iframe'.</msg>
+<status status="PASS" starttime="20200116 12:50:22.110" endtime="20200116 12:50:22.365"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:21.363" endtime="20200115 14:10:21.605"></status>
+<status status="PASS" starttime="20200116 12:50:22.110" endtime="20200116 12:50:22.365"></status>
 </kw>
 <kw name="Visible" library="recursos">
 <arguments>
@@ -576,17 +576,17 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:10:21.605" endtime="20200115 14:10:21.824"></status>
+<status status="PASS" starttime="20200116 12:50:22.366" endtime="20200116 12:50:22.610"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:21.605" endtime="20200115 14:10:21.824"></status>
+<status status="PASS" starttime="20200116 12:50:22.365" endtime="20200116 12:50:22.611"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${titulo}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:21.824" level="INFO">xpath=//h1[contains(@itemprop,'name')]</msg>
-<status status="PASS" starttime="20200115 14:10:21.824" endtime="20200115 14:10:21.824"></status>
+<msg timestamp="20200116 12:50:22.613" level="INFO">xpath=//h1[contains(@itemprop,'name')]</msg>
+<status status="PASS" starttime="20200116 12:50:22.612" endtime="20200116 12:50:22.613"></status>
 </kw>
 <kw name="Comparar" library="recursos">
 <arguments>
@@ -599,17 +599,17 @@
 <arg>${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:21.824" level="INFO">Verifying element 'xpath=//h1[contains(@itemprop,'name')]' contains exact text 'Printed Dress'.</msg>
-<status status="PASS" starttime="20200115 14:10:21.824" endtime="20200115 14:10:22.037"></status>
+<msg timestamp="20200116 12:50:22.617" level="INFO">Verifying element 'xpath=//h1[contains(@itemprop,'name')]' contains exact text 'Printed Dress'.</msg>
+<status status="PASS" starttime="20200116 12:50:22.616" endtime="20200116 12:50:22.877"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:21.824" endtime="20200115 14:10:22.037"></status>
+<status status="PASS" starttime="20200116 12:50:22.613" endtime="20200116 12:50:22.877"></status>
 </kw>
 <kw name="USF" library="recursos">
 <kw name="Unselect Frame" library="SeleniumLibrary">
 <doc>Sets the main frame as the current frame.</doc>
-<status status="PASS" starttime="20200115 14:10:22.037" endtime="20200115 14:10:22.147"></status>
+<status status="PASS" starttime="20200116 12:50:22.878" endtime="20200116 12:50:22.985"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:22.037" endtime="20200115 14:10:22.147"></status>
+<status status="PASS" starttime="20200116 12:50:22.878" endtime="20200116 12:50:22.986"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -620,12 +620,12 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:22.147" level="INFO">Clicking element 'xpath=//a[@title='Close']'.</msg>
-<status status="PASS" starttime="20200115 14:10:22.147" endtime="20200115 14:10:22.396"></status>
+<msg timestamp="20200116 12:50:22.988" level="INFO">Clicking element 'xpath=//a[@title='Close']'.</msg>
+<status status="PASS" starttime="20200116 12:50:22.987" endtime="20200116 12:50:23.278"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:22.147" endtime="20200115 14:10:22.396"></status>
+<status status="PASS" starttime="20200116 12:50:22.986" endtime="20200116 12:50:23.278"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:19.576" endtime="20200115 14:10:22.396"></status>
+<status status="PASS" starttime="20200116 12:50:20.184" endtime="20200116 12:50:23.278"></status>
 </kw>
 <kw name="${item} = 5" type="foritem">
 <kw name="Focus" library="recursos">
@@ -637,9 +637,9 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:10:22.397" endtime="20200115 14:10:22.616"></status>
+<status status="PASS" starttime="20200116 12:50:23.279" endtime="20200116 12:50:23.516"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:22.396" endtime="20200115 14:10:22.616"></status>
+<status status="PASS" starttime="20200116 12:50:23.279" endtime="20200116 12:50:23.517"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -649,16 +649,16 @@
 <assign>
 <var>${nomT}</var>
 </assign>
-<msg timestamp="20200115 14:10:22.836" level="INFO">${nomT} = Printed Summer Dress</msg>
-<status status="PASS" starttime="20200115 14:10:22.616" endtime="20200115 14:10:22.836"></status>
+<msg timestamp="20200116 12:50:23.769" level="INFO">${nomT} = Printed Summer Dress</msg>
+<status status="PASS" starttime="20200116 12:50:23.517" endtime="20200116 12:50:23.769"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${nomT}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:22.836" level="INFO">Printed Summer Dress</msg>
-<status status="PASS" starttime="20200115 14:10:22.836" endtime="20200115 14:10:22.836"></status>
+<msg timestamp="20200116 12:50:23.770" level="INFO">Printed Summer Dress</msg>
+<status status="PASS" starttime="20200116 12:50:23.770" endtime="20200116 12:50:23.770"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -669,10 +669,10 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:22.837" level="INFO">Clicking element 'xpath=(//i[@class='icon-eye-open'])[5]'.</msg>
-<status status="PASS" starttime="20200115 14:10:22.836" endtime="20200115 14:10:23.124"></status>
+<msg timestamp="20200116 12:50:23.772" level="INFO">Clicking element 'xpath=(//i[@class='icon-eye-open'])[5]'.</msg>
+<status status="PASS" starttime="20200116 12:50:23.772" endtime="20200116 12:50:24.075"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:22.836" endtime="20200115 14:10:23.124"></status>
+<status status="PASS" starttime="20200116 12:50:23.771" endtime="20200116 12:50:24.075"></status>
 </kw>
 <kw name="Visible" library="recursos">
 <arguments>
@@ -683,9 +683,9 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:10:23.124" endtime="20200115 14:10:24.176"></status>
+<status status="PASS" starttime="20200116 12:50:24.076" endtime="20200116 12:50:26.133"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:23.124" endtime="20200115 14:10:24.176"></status>
+<status status="PASS" starttime="20200116 12:50:24.075" endtime="20200116 12:50:26.133"></status>
 </kw>
 <kw name="SF" library="recursos">
 <arguments>
@@ -696,10 +696,10 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:24.177" level="INFO">Selecting frame 'xpath=//*[@id="index"]/div[2]/div/div/div/div/iframe'.</msg>
-<status status="PASS" starttime="20200115 14:10:24.176" endtime="20200115 14:10:24.433"></status>
+<msg timestamp="20200116 12:50:26.134" level="INFO">Selecting frame 'xpath=//*[@id="index"]/div[2]/div/div/div/div/iframe'.</msg>
+<status status="PASS" starttime="20200116 12:50:26.134" endtime="20200116 12:50:26.367"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:24.176" endtime="20200115 14:10:24.433"></status>
+<status status="PASS" starttime="20200116 12:50:26.133" endtime="20200116 12:50:26.367"></status>
 </kw>
 <kw name="Visible" library="recursos">
 <arguments>
@@ -710,17 +710,17 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:10:24.433" endtime="20200115 14:10:24.661"></status>
+<status status="PASS" starttime="20200116 12:50:26.368" endtime="20200116 12:50:26.617"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:24.433" endtime="20200115 14:10:24.661"></status>
+<status status="PASS" starttime="20200116 12:50:26.368" endtime="20200116 12:50:26.617"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${titulo}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:24.661" level="INFO">xpath=//h1[contains(@itemprop,'name')]</msg>
-<status status="PASS" starttime="20200115 14:10:24.661" endtime="20200115 14:10:24.661"></status>
+<msg timestamp="20200116 12:50:26.618" level="INFO">xpath=//h1[contains(@itemprop,'name')]</msg>
+<status status="PASS" starttime="20200116 12:50:26.618" endtime="20200116 12:50:26.619"></status>
 </kw>
 <kw name="Comparar" library="recursos">
 <arguments>
@@ -733,17 +733,17 @@
 <arg>${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:24.661" level="INFO">Verifying element 'xpath=//h1[contains(@itemprop,'name')]' contains exact text 'Printed Summer Dress'.</msg>
-<status status="PASS" starttime="20200115 14:10:24.661" endtime="20200115 14:10:24.874"></status>
+<msg timestamp="20200116 12:50:26.621" level="INFO">Verifying element 'xpath=//h1[contains(@itemprop,'name')]' contains exact text 'Printed Summer Dress'.</msg>
+<status status="PASS" starttime="20200116 12:50:26.620" endtime="20200116 12:50:26.881"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:24.661" endtime="20200115 14:10:24.874"></status>
+<status status="PASS" starttime="20200116 12:50:26.619" endtime="20200116 12:50:26.882"></status>
 </kw>
 <kw name="USF" library="recursos">
 <kw name="Unselect Frame" library="SeleniumLibrary">
 <doc>Sets the main frame as the current frame.</doc>
-<status status="PASS" starttime="20200115 14:10:24.874" endtime="20200115 14:10:24.984"></status>
+<status status="PASS" starttime="20200116 12:50:26.883" endtime="20200116 12:50:26.989"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:24.874" endtime="20200115 14:10:24.984"></status>
+<status status="PASS" starttime="20200116 12:50:26.882" endtime="20200116 12:50:26.990"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -754,12 +754,12 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:24.984" level="INFO">Clicking element 'xpath=//a[@title='Close']'.</msg>
-<status status="PASS" starttime="20200115 14:10:24.984" endtime="20200115 14:10:25.234"></status>
+<msg timestamp="20200116 12:50:26.992" level="INFO">Clicking element 'xpath=//a[@title='Close']'.</msg>
+<status status="PASS" starttime="20200116 12:50:26.991" endtime="20200116 12:50:27.292"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:24.984" endtime="20200115 14:10:25.234"></status>
+<status status="PASS" starttime="20200116 12:50:26.990" endtime="20200116 12:50:27.292"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:22.396" endtime="20200115 14:10:25.234"></status>
+<status status="PASS" starttime="20200116 12:50:23.278" endtime="20200116 12:50:27.293"></status>
 </kw>
 <kw name="${item} = 6" type="foritem">
 <kw name="Focus" library="recursos">
@@ -771,9 +771,9 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:10:25.234" endtime="20200115 14:10:25.452"></status>
+<status status="PASS" starttime="20200116 12:50:27.293" endtime="20200116 12:50:27.513"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:25.234" endtime="20200115 14:10:25.452"></status>
+<status status="PASS" starttime="20200116 12:50:27.293" endtime="20200116 12:50:27.513"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -783,16 +783,16 @@
 <assign>
 <var>${nomT}</var>
 </assign>
-<msg timestamp="20200115 14:10:25.675" level="INFO">${nomT} = Printed Summer Dress</msg>
-<status status="PASS" starttime="20200115 14:10:25.452" endtime="20200115 14:10:25.675"></status>
+<msg timestamp="20200116 12:50:27.758" level="INFO">${nomT} = Printed Summer Dress</msg>
+<status status="PASS" starttime="20200116 12:50:27.513" endtime="20200116 12:50:27.758"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${nomT}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:25.675" level="INFO">Printed Summer Dress</msg>
-<status status="PASS" starttime="20200115 14:10:25.675" endtime="20200115 14:10:25.675"></status>
+<msg timestamp="20200116 12:50:27.759" level="INFO">Printed Summer Dress</msg>
+<status status="PASS" starttime="20200116 12:50:27.759" endtime="20200116 12:50:27.760"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -803,10 +803,10 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:25.676" level="INFO">Clicking element 'xpath=(//i[@class='icon-eye-open'])[6]'.</msg>
-<status status="PASS" starttime="20200115 14:10:25.676" endtime="20200115 14:10:26.006"></status>
+<msg timestamp="20200116 12:50:27.762" level="INFO">Clicking element 'xpath=(//i[@class='icon-eye-open'])[6]'.</msg>
+<status status="PASS" starttime="20200116 12:50:27.761" endtime="20200116 12:50:28.109"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:25.675" endtime="20200115 14:10:26.006"></status>
+<status status="PASS" starttime="20200116 12:50:27.760" endtime="20200116 12:50:28.109"></status>
 </kw>
 <kw name="Visible" library="recursos">
 <arguments>
@@ -817,9 +817,9 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:10:26.007" endtime="20200115 14:10:27.127"></status>
+<status status="PASS" starttime="20200116 12:50:28.111" endtime="20200116 12:50:29.248"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:26.007" endtime="20200115 14:10:27.127"></status>
+<status status="PASS" starttime="20200116 12:50:28.110" endtime="20200116 12:50:29.248"></status>
 </kw>
 <kw name="SF" library="recursos">
 <arguments>
@@ -830,10 +830,10 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:27.128" level="INFO">Selecting frame 'xpath=//*[@id="index"]/div[2]/div/div/div/div/iframe'.</msg>
-<status status="PASS" starttime="20200115 14:10:27.127" endtime="20200115 14:10:27.381"></status>
+<msg timestamp="20200116 12:50:29.249" level="INFO">Selecting frame 'xpath=//*[@id="index"]/div[2]/div/div/div/div/iframe'.</msg>
+<status status="PASS" starttime="20200116 12:50:29.249" endtime="20200116 12:50:29.496"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:27.127" endtime="20200115 14:10:27.381"></status>
+<status status="PASS" starttime="20200116 12:50:29.248" endtime="20200116 12:50:29.496"></status>
 </kw>
 <kw name="Visible" library="recursos">
 <arguments>
@@ -844,17 +844,17 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:10:27.381" endtime="20200115 14:10:27.631"></status>
+<status status="PASS" starttime="20200116 12:50:29.498" endtime="20200116 12:50:29.749"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:27.381" endtime="20200115 14:10:27.631"></status>
+<status status="PASS" starttime="20200116 12:50:29.497" endtime="20200116 12:50:29.749"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${titulo}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:27.631" level="INFO">xpath=//h1[contains(@itemprop,'name')]</msg>
-<status status="PASS" starttime="20200115 14:10:27.631" endtime="20200115 14:10:27.631"></status>
+<msg timestamp="20200116 12:50:29.750" level="INFO">xpath=//h1[contains(@itemprop,'name')]</msg>
+<status status="PASS" starttime="20200116 12:50:29.750" endtime="20200116 12:50:29.751"></status>
 </kw>
 <kw name="Comparar" library="recursos">
 <arguments>
@@ -867,17 +867,17 @@
 <arg>${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:27.631" level="INFO">Verifying element 'xpath=//h1[contains(@itemprop,'name')]' contains exact text 'Printed Summer Dress'.</msg>
-<status status="PASS" starttime="20200115 14:10:27.631" endtime="20200115 14:10:27.850"></status>
+<msg timestamp="20200116 12:50:29.753" level="INFO">Verifying element 'xpath=//h1[contains(@itemprop,'name')]' contains exact text 'Printed Summer Dress'.</msg>
+<status status="PASS" starttime="20200116 12:50:29.752" endtime="20200116 12:50:29.998"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:27.631" endtime="20200115 14:10:27.850"></status>
+<status status="PASS" starttime="20200116 12:50:29.751" endtime="20200116 12:50:29.999"></status>
 </kw>
 <kw name="USF" library="recursos">
 <kw name="Unselect Frame" library="SeleniumLibrary">
 <doc>Sets the main frame as the current frame.</doc>
-<status status="PASS" starttime="20200115 14:10:27.850" endtime="20200115 14:10:27.959"></status>
+<status status="PASS" starttime="20200116 12:50:30.000" endtime="20200116 12:50:30.106"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:27.850" endtime="20200115 14:10:27.959"></status>
+<status status="PASS" starttime="20200116 12:50:29.999" endtime="20200116 12:50:30.107"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -888,12 +888,12 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:27.959" level="INFO">Clicking element 'xpath=//a[@title='Close']'.</msg>
-<status status="PASS" starttime="20200115 14:10:27.959" endtime="20200115 14:10:28.207"></status>
+<msg timestamp="20200116 12:50:30.108" level="INFO">Clicking element 'xpath=//a[@title='Close']'.</msg>
+<status status="PASS" starttime="20200116 12:50:30.108" endtime="20200116 12:50:30.425"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:27.959" endtime="20200115 14:10:28.207"></status>
+<status status="PASS" starttime="20200116 12:50:30.107" endtime="20200116 12:50:30.425"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:25.234" endtime="20200115 14:10:28.207"></status>
+<status status="PASS" starttime="20200116 12:50:27.293" endtime="20200116 12:50:30.425"></status>
 </kw>
 <kw name="${item} = 7" type="foritem">
 <kw name="Focus" library="recursos">
@@ -905,9 +905,9 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:10:28.207" endtime="20200115 14:10:28.422"></status>
+<status status="PASS" starttime="20200116 12:50:30.426" endtime="20200116 12:50:30.650"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:28.207" endtime="20200115 14:10:28.422"></status>
+<status status="PASS" starttime="20200116 12:50:30.425" endtime="20200116 12:50:30.650"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -917,16 +917,16 @@
 <assign>
 <var>${nomT}</var>
 </assign>
-<msg timestamp="20200115 14:10:28.644" level="INFO">${nomT} = Printed Chiffon Dress</msg>
-<status status="PASS" starttime="20200115 14:10:28.422" endtime="20200115 14:10:28.644"></status>
+<msg timestamp="20200116 12:50:30.878" level="INFO">${nomT} = Printed Chiffon Dress</msg>
+<status status="PASS" starttime="20200116 12:50:30.650" endtime="20200116 12:50:30.878"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${nomT}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:28.644" level="INFO">Printed Chiffon Dress</msg>
-<status status="PASS" starttime="20200115 14:10:28.644" endtime="20200115 14:10:28.644"></status>
+<msg timestamp="20200116 12:50:30.879" level="INFO">Printed Chiffon Dress</msg>
+<status status="PASS" starttime="20200116 12:50:30.879" endtime="20200116 12:50:30.879"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -937,10 +937,10 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:28.645" level="INFO">Clicking element 'xpath=(//i[@class='icon-eye-open'])[7]'.</msg>
-<status status="PASS" starttime="20200115 14:10:28.645" endtime="20200115 14:10:28.937"></status>
+<msg timestamp="20200116 12:50:30.881" level="INFO">Clicking element 'xpath=(//i[@class='icon-eye-open'])[7]'.</msg>
+<status status="PASS" starttime="20200116 12:50:30.881" endtime="20200116 12:50:31.216"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:28.644" endtime="20200115 14:10:28.937"></status>
+<status status="PASS" starttime="20200116 12:50:30.880" endtime="20200116 12:50:31.216"></status>
 </kw>
 <kw name="Visible" library="recursos">
 <arguments>
@@ -951,9 +951,9 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:10:28.937" endtime="20200115 14:10:29.996"></status>
+<status status="PASS" starttime="20200116 12:50:31.217" endtime="20200116 12:50:32.880"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:28.937" endtime="20200115 14:10:29.996"></status>
+<status status="PASS" starttime="20200116 12:50:31.217" endtime="20200116 12:50:32.880"></status>
 </kw>
 <kw name="SF" library="recursos">
 <arguments>
@@ -964,10 +964,10 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:29.997" level="INFO">Selecting frame 'xpath=//*[@id="index"]/div[2]/div/div/div/div/iframe'.</msg>
-<status status="PASS" starttime="20200115 14:10:29.997" endtime="20200115 14:10:30.255"></status>
+<msg timestamp="20200116 12:50:32.881" level="INFO">Selecting frame 'xpath=//*[@id="index"]/div[2]/div/div/div/div/iframe'.</msg>
+<status status="PASS" starttime="20200116 12:50:32.880" endtime="20200116 12:50:33.109"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:29.996" endtime="20200115 14:10:30.255"></status>
+<status status="PASS" starttime="20200116 12:50:32.880" endtime="20200116 12:50:33.109"></status>
 </kw>
 <kw name="Visible" library="recursos">
 <arguments>
@@ -978,17 +978,17 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:10:30.255" endtime="20200115 14:10:30.475"></status>
+<status status="PASS" starttime="20200116 12:50:33.110" endtime="20200116 12:50:33.360"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:30.255" endtime="20200115 14:10:30.475"></status>
+<status status="PASS" starttime="20200116 12:50:33.109" endtime="20200116 12:50:33.360"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${titulo}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:30.475" level="INFO">xpath=//h1[contains(@itemprop,'name')]</msg>
-<status status="PASS" starttime="20200115 14:10:30.475" endtime="20200115 14:10:30.475"></status>
+<msg timestamp="20200116 12:50:33.361" level="INFO">xpath=//h1[contains(@itemprop,'name')]</msg>
+<status status="PASS" starttime="20200116 12:50:33.361" endtime="20200116 12:50:33.361"></status>
 </kw>
 <kw name="Comparar" library="recursos">
 <arguments>
@@ -1001,17 +1001,17 @@
 <arg>${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:30.475" level="INFO">Verifying element 'xpath=//h1[contains(@itemprop,'name')]' contains exact text 'Printed Chiffon Dress'.</msg>
-<status status="PASS" starttime="20200115 14:10:30.475" endtime="20200115 14:10:30.694"></status>
+<msg timestamp="20200116 12:50:33.363" level="INFO">Verifying element 'xpath=//h1[contains(@itemprop,'name')]' contains exact text 'Printed Chiffon Dress'.</msg>
+<status status="PASS" starttime="20200116 12:50:33.362" endtime="20200116 12:50:33.618"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:30.475" endtime="20200115 14:10:30.694"></status>
+<status status="PASS" starttime="20200116 12:50:33.361" endtime="20200116 12:50:33.619"></status>
 </kw>
 <kw name="USF" library="recursos">
 <kw name="Unselect Frame" library="SeleniumLibrary">
 <doc>Sets the main frame as the current frame.</doc>
-<status status="PASS" starttime="20200115 14:10:30.694" endtime="20200115 14:10:30.804"></status>
+<status status="PASS" starttime="20200116 12:50:33.620" endtime="20200116 12:50:33.727"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:30.694" endtime="20200115 14:10:30.804"></status>
+<status status="PASS" starttime="20200116 12:50:33.619" endtime="20200116 12:50:33.727"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -1022,23 +1022,23 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:30.804" level="INFO">Clicking element 'xpath=//a[@title='Close']'.</msg>
-<status status="PASS" starttime="20200115 14:10:30.804" endtime="20200115 14:10:31.050"></status>
+<msg timestamp="20200116 12:50:33.729" level="INFO">Clicking element 'xpath=//a[@title='Close']'.</msg>
+<status status="PASS" starttime="20200116 12:50:33.729" endtime="20200116 12:50:34.032"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:30.804" endtime="20200115 14:10:31.050"></status>
+<status status="PASS" starttime="20200116 12:50:33.728" endtime="20200116 12:50:34.033"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:28.207" endtime="20200115 14:10:31.050"></status>
+<status status="PASS" starttime="20200116 12:50:30.425" endtime="20200116 12:50:34.033"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:10.946" endtime="20200115 14:10:31.050"></status>
+<status status="PASS" starttime="20200116 12:50:10.357" endtime="20200116 12:50:34.033"></status>
 </kw>
 <kw name="Cerrar" library="recursos">
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20200115 14:10:31.051" endtime="20200115 14:10:33.223"></status>
+<status status="PASS" starttime="20200116 12:50:34.034" endtime="20200116 12:50:36.193"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:31.050" endtime="20200115 14:10:33.223"></status>
+<status status="PASS" starttime="20200116 12:50:34.034" endtime="20200116 12:50:36.193"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:02.337" endtime="20200115 14:10:33.223" critical="yes"></status>
+<status status="PASS" starttime="20200116 12:50:01.117" endtime="20200116 12:50:36.194" critical="yes"></status>
 </test>
 <test id="s1-t2" name="002 Prueba dos de la sección del dos">
 <kw name="Abrir navegador" library="recursos">
@@ -1048,17 +1048,17 @@
 <arg>${url}</arg>
 <arg>${navegador}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:33.223" level="INFO">Opening browser 'chrome' to base url 'http://automationpractice.com/index.php'.</msg>
-<status status="PASS" starttime="20200115 14:10:33.223" endtime="20200115 14:10:37.990"></status>
+<msg timestamp="20200116 12:50:36.202" level="INFO">Opening browser 'chrome' to base url 'http://automationpractice.com/index.php'.</msg>
+<status status="PASS" starttime="20200116 12:50:36.201" endtime="20200116 12:50:41.706"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <doc>Waits until the element ``locator`` is visible.</doc>
 <arguments>
 <arg>xpath=//img[contains(@class,'logo img-responsive')]</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:10:37.991" endtime="20200115 14:10:38.232"></status>
+<status status="PASS" starttime="20200116 12:50:41.706" endtime="20200116 12:50:41.961"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:33.223" endtime="20200115 14:10:38.232"></status>
+<status status="PASS" starttime="20200116 12:50:36.199" endtime="20200116 12:50:41.962"></status>
 </kw>
 <kw name="Focus" library="recursos">
 <arguments>
@@ -1069,9 +1069,9 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:10:38.233" endtime="20200115 14:10:38.460"></status>
+<status status="PASS" starttime="20200116 12:50:41.963" endtime="20200116 12:50:42.206"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:38.233" endtime="20200115 14:10:38.460"></status>
+<status status="PASS" starttime="20200116 12:50:41.962" endtime="20200116 12:50:42.206"></status>
 </kw>
 <kw name="Tiempo" library="recursos">
 <arguments>
@@ -1082,9 +1082,9 @@
 <arguments>
 <arg>${arg1} seconds</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:10:38.463" endtime="20200115 14:10:38.464"></status>
+<status status="PASS" starttime="20200116 12:50:42.206" endtime="20200116 12:50:42.206"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:38.462" endtime="20200115 14:10:38.464"></status>
+<status status="PASS" starttime="20200116 12:50:42.206" endtime="20200116 12:50:42.206"></status>
 </kw>
 <kw name="Ventana" library="recursos">
 <arguments>
@@ -1097,9 +1097,9 @@
 <arg>${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:10:38.466" endtime="20200115 14:10:40.423"></status>
+<status status="PASS" starttime="20200116 12:50:42.207" endtime="20200116 12:50:44.142"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:38.465" endtime="20200115 14:10:40.423"></status>
+<status status="PASS" starttime="20200116 12:50:42.207" endtime="20200116 12:50:44.143"></status>
 </kw>
 <kw name="Ventana" library="recursos">
 <arguments>
@@ -1112,9 +1112,9 @@
 <arg>${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:10:40.424" endtime="20200115 14:10:41.346"></status>
+<status status="PASS" starttime="20200116 12:50:44.145" endtime="20200116 12:50:45.079"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:40.424" endtime="20200115 14:10:41.346"></status>
+<status status="PASS" starttime="20200116 12:50:44.144" endtime="20200116 12:50:45.079"></status>
 </kw>
 <kw name="Tiempo" library="recursos">
 <arguments>
@@ -1125,9 +1125,9 @@
 <arguments>
 <arg>${arg1} seconds</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:10:41.346" endtime="20200115 14:10:41.346"></status>
+<status status="PASS" starttime="20200116 12:50:45.080" endtime="20200116 12:50:45.080"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:41.346" endtime="20200115 14:10:41.346"></status>
+<status status="PASS" starttime="20200116 12:50:45.079" endtime="20200116 12:50:45.080"></status>
 </kw>
 <kw name="${item} IN [ @{items} ]" type="for">
 <kw name="${item} = 1" type="foritem">
@@ -1140,9 +1140,9 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:10:41.346" endtime="20200115 14:10:41.569"></status>
+<status status="PASS" starttime="20200116 12:50:45.081" endtime="20200116 12:50:45.305"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:41.346" endtime="20200115 14:10:41.569"></status>
+<status status="PASS" starttime="20200116 12:50:45.081" endtime="20200116 12:50:45.305"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -1152,16 +1152,16 @@
 <assign>
 <var>${nomT}</var>
 </assign>
-<msg timestamp="20200115 14:10:41.789" level="INFO">${nomT} = Faded Short Sleeve T-shirts</msg>
-<status status="PASS" starttime="20200115 14:10:41.569" endtime="20200115 14:10:41.789"></status>
+<msg timestamp="20200116 12:50:45.526" level="INFO">${nomT} = Faded Short Sleeve T-shirts</msg>
+<status status="PASS" starttime="20200116 12:50:45.305" endtime="20200116 12:50:45.526"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${nomT}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:41.789" level="INFO">Faded Short Sleeve T-shirts</msg>
-<status status="PASS" starttime="20200115 14:10:41.789" endtime="20200115 14:10:41.789"></status>
+<msg timestamp="20200116 12:50:45.526" level="INFO">Faded Short Sleeve T-shirts</msg>
+<status status="PASS" starttime="20200116 12:50:45.526" endtime="20200116 12:50:45.526"></status>
 </kw>
 <kw name="MO" library="recursos">
 <arguments>
@@ -1172,10 +1172,10 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:41.789" level="INFO">Simulating Mouse Over on element 'xpath=(//img[@width='250'])[1]'.</msg>
-<status status="PASS" starttime="20200115 14:10:41.789" endtime="20200115 14:10:42.528"></status>
+<msg timestamp="20200116 12:50:45.527" level="INFO">Simulating Mouse Over on element 'xpath=(//img[@width='250'])[1]'.</msg>
+<status status="PASS" starttime="20200116 12:50:45.526" endtime="20200116 12:50:46.254"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:41.789" endtime="20200115 14:10:42.528"></status>
+<status status="PASS" starttime="20200116 12:50:45.526" endtime="20200116 12:50:46.254"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -1186,10 +1186,10 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:42.528" level="INFO">Clicking element 'xpath=(//span[contains(.,'Quick view')])[1]'.</msg>
-<status status="PASS" starttime="20200115 14:10:42.528" endtime="20200115 14:10:42.821"></status>
+<msg timestamp="20200116 12:50:46.254" level="INFO">Clicking element 'xpath=(//span[contains(.,'Quick view')])[1]'.</msg>
+<status status="PASS" starttime="20200116 12:50:46.254" endtime="20200116 12:50:46.554"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:42.528" endtime="20200115 14:10:42.821"></status>
+<status status="PASS" starttime="20200116 12:50:46.254" endtime="20200116 12:50:46.554"></status>
 </kw>
 <kw name="Visible" library="recursos">
 <arguments>
@@ -1200,9 +1200,9 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:10:42.821" endtime="20200115 14:10:44.725"></status>
+<status status="PASS" starttime="20200116 12:50:46.554" endtime="20200116 12:50:48.034"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:42.821" endtime="20200115 14:10:44.725"></status>
+<status status="PASS" starttime="20200116 12:50:46.554" endtime="20200116 12:50:48.034"></status>
 </kw>
 <kw name="SF" library="recursos">
 <arguments>
@@ -1213,10 +1213,10 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:44.726" level="INFO">Selecting frame 'xpath=//*[@id="index"]/div[2]/div/div/div/div/iframe'.</msg>
-<status status="PASS" starttime="20200115 14:10:44.725" endtime="20200115 14:10:44.961"></status>
+<msg timestamp="20200116 12:50:48.034" level="INFO">Selecting frame 'xpath=//*[@id="index"]/div[2]/div/div/div/div/iframe'.</msg>
+<status status="PASS" starttime="20200116 12:50:48.034" endtime="20200116 12:50:48.260"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:44.725" endtime="20200115 14:10:44.961"></status>
+<status status="PASS" starttime="20200116 12:50:48.034" endtime="20200116 12:50:48.260"></status>
 </kw>
 <kw name="Visible" library="recursos">
 <arguments>
@@ -1227,17 +1227,17 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:10:44.961" endtime="20200115 14:10:45.185"></status>
+<status status="PASS" starttime="20200116 12:50:48.260" endtime="20200116 12:50:48.498"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:44.961" endtime="20200115 14:10:45.185"></status>
+<status status="PASS" starttime="20200116 12:50:48.260" endtime="20200116 12:50:48.498"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${titulo}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:45.185" level="INFO">xpath=//h1[contains(@itemprop,'name')]</msg>
-<status status="PASS" starttime="20200115 14:10:45.185" endtime="20200115 14:10:45.185"></status>
+<msg timestamp="20200116 12:50:48.499" level="INFO">xpath=//h1[contains(@itemprop,'name')]</msg>
+<status status="PASS" starttime="20200116 12:50:48.498" endtime="20200116 12:50:48.499"></status>
 </kw>
 <kw name="Comparar" library="recursos">
 <arguments>
@@ -1250,17 +1250,17 @@
 <arg>${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:45.185" level="INFO">Verifying element 'xpath=//h1[contains(@itemprop,'name')]' contains exact text 'Faded Short Sleeve T-shirts'.</msg>
-<status status="PASS" starttime="20200115 14:10:45.185" endtime="20200115 14:10:45.404"></status>
+<msg timestamp="20200116 12:50:48.500" level="INFO">Verifying element 'xpath=//h1[contains(@itemprop,'name')]' contains exact text 'Faded Short Sleeve T-shirts'.</msg>
+<status status="PASS" starttime="20200116 12:50:48.500" endtime="20200116 12:50:48.742"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:45.185" endtime="20200115 14:10:45.404"></status>
+<status status="PASS" starttime="20200116 12:50:48.499" endtime="20200116 12:50:48.742"></status>
 </kw>
 <kw name="USF" library="recursos">
 <kw name="Unselect Frame" library="SeleniumLibrary">
 <doc>Sets the main frame as the current frame.</doc>
-<status status="PASS" starttime="20200115 14:10:45.404" endtime="20200115 14:10:45.513"></status>
+<status status="PASS" starttime="20200116 12:50:48.743" endtime="20200116 12:50:48.848"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:45.404" endtime="20200115 14:10:45.513"></status>
+<status status="PASS" starttime="20200116 12:50:48.742" endtime="20200116 12:50:48.848"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -1271,12 +1271,12 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:45.513" level="INFO">Clicking element 'xpath=//a[@title='Close']'.</msg>
-<status status="PASS" starttime="20200115 14:10:45.513" endtime="20200115 14:10:45.761"></status>
+<msg timestamp="20200116 12:50:48.849" level="INFO">Clicking element 'xpath=//a[@title='Close']'.</msg>
+<status status="PASS" starttime="20200116 12:50:48.849" endtime="20200116 12:50:49.134"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:45.513" endtime="20200115 14:10:45.761"></status>
+<status status="PASS" starttime="20200116 12:50:48.848" endtime="20200116 12:50:49.134"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:41.346" endtime="20200115 14:10:45.761"></status>
+<status status="PASS" starttime="20200116 12:50:45.081" endtime="20200116 12:50:49.134"></status>
 </kw>
 <kw name="${item} = 2" type="foritem">
 <kw name="Focus" library="recursos">
@@ -1288,9 +1288,9 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:10:45.761" endtime="20200115 14:10:45.979"></status>
+<status status="PASS" starttime="20200116 12:50:49.135" endtime="20200116 12:50:49.381"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:45.761" endtime="20200115 14:10:45.979"></status>
+<status status="PASS" starttime="20200116 12:50:49.134" endtime="20200116 12:50:49.381"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -1300,16 +1300,16 @@
 <assign>
 <var>${nomT}</var>
 </assign>
-<msg timestamp="20200115 14:10:46.213" level="INFO">${nomT} = Blouse</msg>
-<status status="PASS" starttime="20200115 14:10:45.979" endtime="20200115 14:10:46.213"></status>
+<msg timestamp="20200116 12:50:49.614" level="INFO">${nomT} = Blouse</msg>
+<status status="PASS" starttime="20200116 12:50:49.381" endtime="20200116 12:50:49.614"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${nomT}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:46.213" level="INFO">Blouse</msg>
-<status status="PASS" starttime="20200115 14:10:46.213" endtime="20200115 14:10:46.213"></status>
+<msg timestamp="20200116 12:50:49.615" level="INFO">Blouse</msg>
+<status status="PASS" starttime="20200116 12:50:49.614" endtime="20200116 12:50:49.615"></status>
 </kw>
 <kw name="MO" library="recursos">
 <arguments>
@@ -1320,10 +1320,10 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:46.213" level="INFO">Simulating Mouse Over on element 'xpath=(//img[@width='250'])[2]'.</msg>
-<status status="PASS" starttime="20200115 14:10:46.213" endtime="20200115 14:10:46.944"></status>
+<msg timestamp="20200116 12:50:49.616" level="INFO">Simulating Mouse Over on element 'xpath=(//img[@width='250'])[2]'.</msg>
+<status status="PASS" starttime="20200116 12:50:49.616" endtime="20200116 12:50:50.385"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:46.213" endtime="20200115 14:10:46.944"></status>
+<status status="PASS" starttime="20200116 12:50:49.615" endtime="20200116 12:50:50.385"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -1334,10 +1334,10 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:46.944" level="INFO">Clicking element 'xpath=(//span[contains(.,'Quick view')])[2]'.</msg>
-<status status="PASS" starttime="20200115 14:10:46.944" endtime="20200115 14:10:47.228"></status>
+<msg timestamp="20200116 12:50:50.386" level="INFO">Clicking element 'xpath=(//span[contains(.,'Quick view')])[2]'.</msg>
+<status status="PASS" starttime="20200116 12:50:50.386" endtime="20200116 12:50:50.697"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:46.944" endtime="20200115 14:10:47.228"></status>
+<status status="PASS" starttime="20200116 12:50:50.385" endtime="20200116 12:50:50.697"></status>
 </kw>
 <kw name="Visible" library="recursos">
 <arguments>
@@ -1348,9 +1348,9 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:10:47.228" endtime="20200115 14:10:48.306"></status>
+<status status="PASS" starttime="20200116 12:50:50.697" endtime="20200116 12:50:51.781"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:47.228" endtime="20200115 14:10:48.306"></status>
+<status status="PASS" starttime="20200116 12:50:50.697" endtime="20200116 12:50:51.781"></status>
 </kw>
 <kw name="SF" library="recursos">
 <arguments>
@@ -1361,10 +1361,10 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:48.306" level="INFO">Selecting frame 'xpath=//*[@id="index"]/div[2]/div/div/div/div/iframe'.</msg>
-<status status="PASS" starttime="20200115 14:10:48.306" endtime="20200115 14:10:48.532"></status>
+<msg timestamp="20200116 12:50:51.782" level="INFO">Selecting frame 'xpath=//*[@id="index"]/div[2]/div/div/div/div/iframe'.</msg>
+<status status="PASS" starttime="20200116 12:50:51.782" endtime="20200116 12:50:52.013"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:48.306" endtime="20200115 14:10:48.532"></status>
+<status status="PASS" starttime="20200116 12:50:51.782" endtime="20200116 12:50:52.013"></status>
 </kw>
 <kw name="Visible" library="recursos">
 <arguments>
@@ -1375,17 +1375,17 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:10:48.532" endtime="20200115 14:10:48.751"></status>
+<status status="PASS" starttime="20200116 12:50:52.015" endtime="20200116 12:50:52.266"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:48.532" endtime="20200115 14:10:48.751"></status>
+<status status="PASS" starttime="20200116 12:50:52.014" endtime="20200116 12:50:52.267"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${titulo}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:48.751" level="INFO">xpath=//h1[contains(@itemprop,'name')]</msg>
-<status status="PASS" starttime="20200115 14:10:48.751" endtime="20200115 14:10:48.751"></status>
+<msg timestamp="20200116 12:50:52.268" level="INFO">xpath=//h1[contains(@itemprop,'name')]</msg>
+<status status="PASS" starttime="20200116 12:50:52.267" endtime="20200116 12:50:52.268"></status>
 </kw>
 <kw name="Comparar" library="recursos">
 <arguments>
@@ -1398,17 +1398,17 @@
 <arg>${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:48.751" level="INFO">Verifying element 'xpath=//h1[contains(@itemprop,'name')]' contains exact text 'Blouse'.</msg>
-<status status="PASS" starttime="20200115 14:10:48.751" endtime="20200115 14:10:48.969"></status>
+<msg timestamp="20200116 12:50:52.270" level="INFO">Verifying element 'xpath=//h1[contains(@itemprop,'name')]' contains exact text 'Blouse'.</msg>
+<status status="PASS" starttime="20200116 12:50:52.269" endtime="20200116 12:50:52.521"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:48.751" endtime="20200115 14:10:48.969"></status>
+<status status="PASS" starttime="20200116 12:50:52.268" endtime="20200116 12:50:52.521"></status>
 </kw>
 <kw name="USF" library="recursos">
 <kw name="Unselect Frame" library="SeleniumLibrary">
 <doc>Sets the main frame as the current frame.</doc>
-<status status="PASS" starttime="20200115 14:10:48.969" endtime="20200115 14:10:49.079"></status>
+<status status="PASS" starttime="20200116 12:50:52.522" endtime="20200116 12:50:52.631"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:48.969" endtime="20200115 14:10:49.079"></status>
+<status status="PASS" starttime="20200116 12:50:52.522" endtime="20200116 12:50:52.631"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -1419,12 +1419,12 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:49.079" level="INFO">Clicking element 'xpath=//a[@title='Close']'.</msg>
-<status status="PASS" starttime="20200115 14:10:49.079" endtime="20200115 14:10:49.325"></status>
+<msg timestamp="20200116 12:50:52.633" level="INFO">Clicking element 'xpath=//a[@title='Close']'.</msg>
+<status status="PASS" starttime="20200116 12:50:52.632" endtime="20200116 12:50:52.909"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:49.079" endtime="20200115 14:10:49.325"></status>
+<status status="PASS" starttime="20200116 12:50:52.631" endtime="20200116 12:50:52.909"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:45.761" endtime="20200115 14:10:49.325"></status>
+<status status="PASS" starttime="20200116 12:50:49.134" endtime="20200116 12:50:52.909"></status>
 </kw>
 <kw name="${item} = 3" type="foritem">
 <kw name="Focus" library="recursos">
@@ -1436,9 +1436,9 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:10:49.325" endtime="20200115 14:10:49.543"></status>
+<status status="PASS" starttime="20200116 12:50:52.910" endtime="20200116 12:50:53.129"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:49.325" endtime="20200115 14:10:49.543"></status>
+<status status="PASS" starttime="20200116 12:50:52.910" endtime="20200116 12:50:53.129"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -1448,16 +1448,16 @@
 <assign>
 <var>${nomT}</var>
 </assign>
-<msg timestamp="20200115 14:10:49.766" level="INFO">${nomT} = Printed Dress</msg>
-<status status="PASS" starttime="20200115 14:10:49.543" endtime="20200115 14:10:49.766"></status>
+<msg timestamp="20200116 12:50:53.382" level="INFO">${nomT} = Printed Dress</msg>
+<status status="PASS" starttime="20200116 12:50:53.130" endtime="20200116 12:50:53.382"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${nomT}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:49.766" level="INFO">Printed Dress</msg>
-<status status="PASS" starttime="20200115 14:10:49.766" endtime="20200115 14:10:49.766"></status>
+<msg timestamp="20200116 12:50:53.382" level="INFO">Printed Dress</msg>
+<status status="PASS" starttime="20200116 12:50:53.382" endtime="20200116 12:50:53.382"></status>
 </kw>
 <kw name="MO" library="recursos">
 <arguments>
@@ -1468,10 +1468,10 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:49.767" level="INFO">Simulating Mouse Over on element 'xpath=(//img[@width='250'])[3]'.</msg>
-<status status="PASS" starttime="20200115 14:10:49.767" endtime="20200115 14:10:50.503"></status>
+<msg timestamp="20200116 12:50:53.383" level="INFO">Simulating Mouse Over on element 'xpath=(//img[@width='250'])[3]'.</msg>
+<status status="PASS" starttime="20200116 12:50:53.383" endtime="20200116 12:50:54.134"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:49.766" endtime="20200115 14:10:50.503"></status>
+<status status="PASS" starttime="20200116 12:50:53.382" endtime="20200116 12:50:54.135"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -1482,10 +1482,10 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:50.503" level="INFO">Clicking element 'xpath=(//span[contains(.,'Quick view')])[3]'.</msg>
-<status status="PASS" starttime="20200115 14:10:50.503" endtime="20200115 14:10:50.806"></status>
+<msg timestamp="20200116 12:50:54.137" level="INFO">Clicking element 'xpath=(//span[contains(.,'Quick view')])[3]'.</msg>
+<status status="PASS" starttime="20200116 12:50:54.136" endtime="20200116 12:50:54.483"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:50.503" endtime="20200115 14:10:50.806"></status>
+<status status="PASS" starttime="20200116 12:50:54.135" endtime="20200116 12:50:54.484"></status>
 </kw>
 <kw name="Visible" library="recursos">
 <arguments>
@@ -1496,9 +1496,9 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:10:50.807" endtime="20200115 14:10:51.877"></status>
+<status status="PASS" starttime="20200116 12:50:54.485" endtime="20200116 12:50:55.585"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:50.807" endtime="20200115 14:10:51.877"></status>
+<status status="PASS" starttime="20200116 12:50:54.484" endtime="20200116 12:50:55.585"></status>
 </kw>
 <kw name="SF" library="recursos">
 <arguments>
@@ -1509,10 +1509,10 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:51.877" level="INFO">Selecting frame 'xpath=//*[@id="index"]/div[2]/div/div/div/div/iframe'.</msg>
-<status status="PASS" starttime="20200115 14:10:51.877" endtime="20200115 14:10:52.116"></status>
+<msg timestamp="20200116 12:50:55.587" level="INFO">Selecting frame 'xpath=//*[@id="index"]/div[2]/div/div/div/div/iframe'.</msg>
+<status status="PASS" starttime="20200116 12:50:55.587" endtime="20200116 12:50:55.837"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:51.877" endtime="20200115 14:10:52.116"></status>
+<status status="PASS" starttime="20200116 12:50:55.585" endtime="20200116 12:50:55.837"></status>
 </kw>
 <kw name="Visible" library="recursos">
 <arguments>
@@ -1523,17 +1523,17 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:10:52.116" endtime="20200115 14:10:52.345"></status>
+<status status="PASS" starttime="20200116 12:50:55.838" endtime="20200116 12:50:56.085"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:52.116" endtime="20200115 14:10:52.345"></status>
+<status status="PASS" starttime="20200116 12:50:55.838" endtime="20200116 12:50:56.085"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${titulo}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:52.345" level="INFO">xpath=//h1[contains(@itemprop,'name')]</msg>
-<status status="PASS" starttime="20200115 14:10:52.345" endtime="20200115 14:10:52.345"></status>
+<msg timestamp="20200116 12:50:56.085" level="INFO">xpath=//h1[contains(@itemprop,'name')]</msg>
+<status status="PASS" starttime="20200116 12:50:56.085" endtime="20200116 12:50:56.085"></status>
 </kw>
 <kw name="Comparar" library="recursos">
 <arguments>
@@ -1546,17 +1546,17 @@
 <arg>${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:52.345" level="INFO">Verifying element 'xpath=//h1[contains(@itemprop,'name')]' contains exact text 'Printed Dress'.</msg>
-<status status="PASS" starttime="20200115 14:10:52.345" endtime="20200115 14:10:52.567"></status>
+<msg timestamp="20200116 12:50:56.086" level="INFO">Verifying element 'xpath=//h1[contains(@itemprop,'name')]' contains exact text 'Printed Dress'.</msg>
+<status status="PASS" starttime="20200116 12:50:56.086" endtime="20200116 12:50:56.309"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:52.345" endtime="20200115 14:10:52.567"></status>
+<status status="PASS" starttime="20200116 12:50:56.085" endtime="20200116 12:50:56.309"></status>
 </kw>
 <kw name="USF" library="recursos">
 <kw name="Unselect Frame" library="SeleniumLibrary">
 <doc>Sets the main frame as the current frame.</doc>
-<status status="PASS" starttime="20200115 14:10:52.567" endtime="20200115 14:10:52.670"></status>
+<status status="PASS" starttime="20200116 12:50:56.310" endtime="20200116 12:50:56.414"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:52.567" endtime="20200115 14:10:52.670"></status>
+<status status="PASS" starttime="20200116 12:50:56.310" endtime="20200116 12:50:56.414"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -1567,12 +1567,12 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:52.670" level="INFO">Clicking element 'xpath=//a[@title='Close']'.</msg>
-<status status="PASS" starttime="20200115 14:10:52.670" endtime="20200115 14:10:52.918"></status>
+<msg timestamp="20200116 12:50:56.414" level="INFO">Clicking element 'xpath=//a[@title='Close']'.</msg>
+<status status="PASS" starttime="20200116 12:50:56.414" endtime="20200116 12:50:56.703"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:52.670" endtime="20200115 14:10:52.918"></status>
+<status status="PASS" starttime="20200116 12:50:56.414" endtime="20200116 12:50:56.703"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:49.325" endtime="20200115 14:10:52.918"></status>
+<status status="PASS" starttime="20200116 12:50:52.909" endtime="20200116 12:50:56.703"></status>
 </kw>
 <kw name="${item} = 4" type="foritem">
 <kw name="Focus" library="recursos">
@@ -1584,9 +1584,9 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:10:52.918" endtime="20200115 14:10:53.135"></status>
+<status status="PASS" starttime="20200116 12:50:56.704" endtime="20200116 12:50:56.935"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:52.918" endtime="20200115 14:10:53.135"></status>
+<status status="PASS" starttime="20200116 12:50:56.703" endtime="20200116 12:50:56.936"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -1596,16 +1596,16 @@
 <assign>
 <var>${nomT}</var>
 </assign>
-<msg timestamp="20200115 14:10:53.355" level="INFO">${nomT} = Printed Dress</msg>
-<status status="PASS" starttime="20200115 14:10:53.135" endtime="20200115 14:10:53.355"></status>
+<msg timestamp="20200116 12:50:57.181" level="INFO">${nomT} = Printed Dress</msg>
+<status status="PASS" starttime="20200116 12:50:56.936" endtime="20200116 12:50:57.181"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${nomT}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:53.355" level="INFO">Printed Dress</msg>
-<status status="PASS" starttime="20200115 14:10:53.355" endtime="20200115 14:10:53.355"></status>
+<msg timestamp="20200116 12:50:57.182" level="INFO">Printed Dress</msg>
+<status status="PASS" starttime="20200116 12:50:57.181" endtime="20200116 12:50:57.182"></status>
 </kw>
 <kw name="MO" library="recursos">
 <arguments>
@@ -1616,10 +1616,10 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:53.356" level="INFO">Simulating Mouse Over on element 'xpath=(//img[@width='250'])[4]'.</msg>
-<status status="PASS" starttime="20200115 14:10:53.356" endtime="20200115 14:10:54.111"></status>
+<msg timestamp="20200116 12:50:57.183" level="INFO">Simulating Mouse Over on element 'xpath=(//img[@width='250'])[4]'.</msg>
+<status status="PASS" starttime="20200116 12:50:57.183" endtime="20200116 12:50:57.946"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:53.355" endtime="20200115 14:10:54.111"></status>
+<status status="PASS" starttime="20200116 12:50:57.182" endtime="20200116 12:50:57.946"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -1630,10 +1630,10 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:54.111" level="INFO">Clicking element 'xpath=(//span[contains(.,'Quick view')])[4]'.</msg>
-<status status="PASS" starttime="20200115 14:10:54.111" endtime="20200115 14:10:54.389"></status>
+<msg timestamp="20200116 12:50:57.948" level="INFO">Clicking element 'xpath=(//span[contains(.,'Quick view')])[4]'.</msg>
+<status status="PASS" starttime="20200116 12:50:57.948" endtime="20200116 12:50:58.317"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:54.111" endtime="20200115 14:10:54.389"></status>
+<status status="PASS" starttime="20200116 12:50:57.947" endtime="20200116 12:50:58.318"></status>
 </kw>
 <kw name="Visible" library="recursos">
 <arguments>
@@ -1644,9 +1644,9 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:10:54.389" endtime="20200115 14:10:55.870"></status>
+<status status="PASS" starttime="20200116 12:50:58.319" endtime="20200116 12:50:59.489"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:54.389" endtime="20200115 14:10:55.870"></status>
+<status status="PASS" starttime="20200116 12:50:58.318" endtime="20200116 12:50:59.489"></status>
 </kw>
 <kw name="SF" library="recursos">
 <arguments>
@@ -1657,10 +1657,10 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:55.870" level="INFO">Selecting frame 'xpath=//*[@id="index"]/div[2]/div/div/div/div/iframe'.</msg>
-<status status="PASS" starttime="20200115 14:10:55.870" endtime="20200115 14:10:56.113"></status>
+<msg timestamp="20200116 12:50:59.490" level="INFO">Selecting frame 'xpath=//*[@id="index"]/div[2]/div/div/div/div/iframe'.</msg>
+<status status="PASS" starttime="20200116 12:50:59.490" endtime="20200116 12:50:59.779"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:55.870" endtime="20200115 14:10:56.113"></status>
+<status status="PASS" starttime="20200116 12:50:59.489" endtime="20200116 12:50:59.780"></status>
 </kw>
 <kw name="Visible" library="recursos">
 <arguments>
@@ -1671,17 +1671,17 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:10:56.113" endtime="20200115 14:10:56.322"></status>
+<status status="PASS" starttime="20200116 12:50:59.781" endtime="20200116 12:51:00.026"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:56.113" endtime="20200115 14:10:56.322"></status>
+<status status="PASS" starttime="20200116 12:50:59.780" endtime="20200116 12:51:00.026"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${titulo}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:56.322" level="INFO">xpath=//h1[contains(@itemprop,'name')]</msg>
-<status status="PASS" starttime="20200115 14:10:56.322" endtime="20200115 14:10:56.322"></status>
+<msg timestamp="20200116 12:51:00.027" level="INFO">xpath=//h1[contains(@itemprop,'name')]</msg>
+<status status="PASS" starttime="20200116 12:51:00.027" endtime="20200116 12:51:00.027"></status>
 </kw>
 <kw name="Comparar" library="recursos">
 <arguments>
@@ -1694,17 +1694,17 @@
 <arg>${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:56.323" level="INFO">Verifying element 'xpath=//h1[contains(@itemprop,'name')]' contains exact text 'Printed Dress'.</msg>
-<status status="PASS" starttime="20200115 14:10:56.323" endtime="20200115 14:10:56.545"></status>
+<msg timestamp="20200116 12:51:00.028" level="INFO">Verifying element 'xpath=//h1[contains(@itemprop,'name')]' contains exact text 'Printed Dress'.</msg>
+<status status="PASS" starttime="20200116 12:51:00.028" endtime="20200116 12:51:00.276"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:56.322" endtime="20200115 14:10:56.545"></status>
+<status status="PASS" starttime="20200116 12:51:00.027" endtime="20200116 12:51:00.276"></status>
 </kw>
 <kw name="USF" library="recursos">
 <kw name="Unselect Frame" library="SeleniumLibrary">
 <doc>Sets the main frame as the current frame.</doc>
-<status status="PASS" starttime="20200115 14:10:56.545" endtime="20200115 14:10:56.649"></status>
+<status status="PASS" starttime="20200116 12:51:00.277" endtime="20200116 12:51:00.384"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:56.545" endtime="20200115 14:10:56.649"></status>
+<status status="PASS" starttime="20200116 12:51:00.277" endtime="20200116 12:51:00.385"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -1715,12 +1715,12 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:56.649" level="INFO">Clicking element 'xpath=//a[@title='Close']'.</msg>
-<status status="PASS" starttime="20200115 14:10:56.649" endtime="20200115 14:10:56.893"></status>
+<msg timestamp="20200116 12:51:00.387" level="INFO">Clicking element 'xpath=//a[@title='Close']'.</msg>
+<status status="PASS" starttime="20200116 12:51:00.386" endtime="20200116 12:51:00.693"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:56.649" endtime="20200115 14:10:56.893"></status>
+<status status="PASS" starttime="20200116 12:51:00.385" endtime="20200116 12:51:00.693"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:52.918" endtime="20200115 14:10:56.893"></status>
+<status status="PASS" starttime="20200116 12:50:56.703" endtime="20200116 12:51:00.693"></status>
 </kw>
 <kw name="${item} = 5" type="foritem">
 <kw name="Focus" library="recursos">
@@ -1732,9 +1732,9 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:10:56.893" endtime="20200115 14:10:57.110"></status>
+<status status="PASS" starttime="20200116 12:51:00.696" endtime="20200116 12:51:00.954"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:56.893" endtime="20200115 14:10:57.110"></status>
+<status status="PASS" starttime="20200116 12:51:00.694" endtime="20200116 12:51:00.955"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -1744,16 +1744,16 @@
 <assign>
 <var>${nomT}</var>
 </assign>
-<msg timestamp="20200115 14:10:57.344" level="INFO">${nomT} = Printed Summer Dress</msg>
-<status status="PASS" starttime="20200115 14:10:57.110" endtime="20200115 14:10:57.344"></status>
+<msg timestamp="20200116 12:51:01.204" level="INFO">${nomT} = Printed Summer Dress</msg>
+<status status="PASS" starttime="20200116 12:51:00.955" endtime="20200116 12:51:01.204"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${nomT}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:57.344" level="INFO">Printed Summer Dress</msg>
-<status status="PASS" starttime="20200115 14:10:57.344" endtime="20200115 14:10:57.344"></status>
+<msg timestamp="20200116 12:51:01.205" level="INFO">Printed Summer Dress</msg>
+<status status="PASS" starttime="20200116 12:51:01.205" endtime="20200116 12:51:01.206"></status>
 </kw>
 <kw name="MO" library="recursos">
 <arguments>
@@ -1764,10 +1764,10 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:57.344" level="INFO">Simulating Mouse Over on element 'xpath=(//img[@width='250'])[5]'.</msg>
-<status status="PASS" starttime="20200115 14:10:57.344" endtime="20200115 14:10:58.087"></status>
+<msg timestamp="20200116 12:51:01.208" level="INFO">Simulating Mouse Over on element 'xpath=(//img[@width='250'])[5]'.</msg>
+<status status="PASS" starttime="20200116 12:51:01.207" endtime="20200116 12:51:01.980"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:57.344" endtime="20200115 14:10:58.087"></status>
+<status status="PASS" starttime="20200116 12:51:01.206" endtime="20200116 12:51:01.981"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -1778,10 +1778,10 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:58.087" level="INFO">Clicking element 'xpath=(//span[contains(.,'Quick view')])[5]'.</msg>
-<status status="PASS" starttime="20200115 14:10:58.087" endtime="20200115 14:10:58.379"></status>
+<msg timestamp="20200116 12:51:01.983" level="INFO">Clicking element 'xpath=(//span[contains(.,'Quick view')])[5]'.</msg>
+<status status="PASS" starttime="20200116 12:51:01.982" endtime="20200116 12:51:02.339"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:58.087" endtime="20200115 14:10:58.379"></status>
+<status status="PASS" starttime="20200116 12:51:01.981" endtime="20200116 12:51:02.339"></status>
 </kw>
 <kw name="Visible" library="recursos">
 <arguments>
@@ -1792,9 +1792,9 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:10:58.379" endtime="20200115 14:10:59.888"></status>
+<status status="PASS" starttime="20200116 12:51:02.340" endtime="20200116 12:51:03.466"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:58.379" endtime="20200115 14:10:59.888"></status>
+<status status="PASS" starttime="20200116 12:51:02.339" endtime="20200116 12:51:03.466"></status>
 </kw>
 <kw name="SF" library="recursos">
 <arguments>
@@ -1805,10 +1805,10 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:10:59.888" level="INFO">Selecting frame 'xpath=//*[@id="index"]/div[2]/div/div/div/div/iframe'.</msg>
-<status status="PASS" starttime="20200115 14:10:59.888" endtime="20200115 14:11:00.131"></status>
+<msg timestamp="20200116 12:51:03.467" level="INFO">Selecting frame 'xpath=//*[@id="index"]/div[2]/div/div/div/div/iframe'.</msg>
+<status status="PASS" starttime="20200116 12:51:03.467" endtime="20200116 12:51:03.694"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:59.888" endtime="20200115 14:11:00.131"></status>
+<status status="PASS" starttime="20200116 12:51:03.467" endtime="20200116 12:51:03.694"></status>
 </kw>
 <kw name="Visible" library="recursos">
 <arguments>
@@ -1819,17 +1819,17 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:11:00.131" endtime="20200115 14:11:00.357"></status>
+<status status="PASS" starttime="20200116 12:51:03.695" endtime="20200116 12:51:03.934"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:11:00.131" endtime="20200115 14:11:00.357"></status>
+<status status="PASS" starttime="20200116 12:51:03.694" endtime="20200116 12:51:03.934"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${titulo}</arg>
 </arguments>
-<msg timestamp="20200115 14:11:00.357" level="INFO">xpath=//h1[contains(@itemprop,'name')]</msg>
-<status status="PASS" starttime="20200115 14:11:00.357" endtime="20200115 14:11:00.357"></status>
+<msg timestamp="20200116 12:51:03.935" level="INFO">xpath=//h1[contains(@itemprop,'name')]</msg>
+<status status="PASS" starttime="20200116 12:51:03.934" endtime="20200116 12:51:03.935"></status>
 </kw>
 <kw name="Comparar" library="recursos">
 <arguments>
@@ -1842,17 +1842,17 @@
 <arg>${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200115 14:11:00.357" level="INFO">Verifying element 'xpath=//h1[contains(@itemprop,'name')]' contains exact text 'Printed Summer Dress'.</msg>
-<status status="PASS" starttime="20200115 14:11:00.357" endtime="20200115 14:11:00.571"></status>
+<msg timestamp="20200116 12:51:03.937" level="INFO">Verifying element 'xpath=//h1[contains(@itemprop,'name')]' contains exact text 'Printed Summer Dress'.</msg>
+<status status="PASS" starttime="20200116 12:51:03.937" endtime="20200116 12:51:04.198"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:11:00.357" endtime="20200115 14:11:00.571"></status>
+<status status="PASS" starttime="20200116 12:51:03.936" endtime="20200116 12:51:04.199"></status>
 </kw>
 <kw name="USF" library="recursos">
 <kw name="Unselect Frame" library="SeleniumLibrary">
 <doc>Sets the main frame as the current frame.</doc>
-<status status="PASS" starttime="20200115 14:11:00.571" endtime="20200115 14:11:00.680"></status>
+<status status="PASS" starttime="20200116 12:51:04.200" endtime="20200116 12:51:04.307"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:11:00.571" endtime="20200115 14:11:00.680"></status>
+<status status="PASS" starttime="20200116 12:51:04.199" endtime="20200116 12:51:04.307"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -1863,12 +1863,12 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:11:00.680" level="INFO">Clicking element 'xpath=//a[@title='Close']'.</msg>
-<status status="PASS" starttime="20200115 14:11:00.680" endtime="20200115 14:11:00.926"></status>
+<msg timestamp="20200116 12:51:04.309" level="INFO">Clicking element 'xpath=//a[@title='Close']'.</msg>
+<status status="PASS" starttime="20200116 12:51:04.309" endtime="20200116 12:51:04.608"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:11:00.680" endtime="20200115 14:11:00.926"></status>
+<status status="PASS" starttime="20200116 12:51:04.308" endtime="20200116 12:51:04.608"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:56.893" endtime="20200115 14:11:00.926"></status>
+<status status="PASS" starttime="20200116 12:51:00.694" endtime="20200116 12:51:04.608"></status>
 </kw>
 <kw name="${item} = 6" type="foritem">
 <kw name="Focus" library="recursos">
@@ -1880,9 +1880,9 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:11:00.926" endtime="20200115 14:11:01.145"></status>
+<status status="PASS" starttime="20200116 12:51:04.609" endtime="20200116 12:51:04.840"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:11:00.926" endtime="20200115 14:11:01.146"></status>
+<status status="PASS" starttime="20200116 12:51:04.609" endtime="20200116 12:51:04.840"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -1892,16 +1892,16 @@
 <assign>
 <var>${nomT}</var>
 </assign>
-<msg timestamp="20200115 14:11:01.370" level="INFO">${nomT} = Printed Summer Dress</msg>
-<status status="PASS" starttime="20200115 14:11:01.147" endtime="20200115 14:11:01.370"></status>
+<msg timestamp="20200116 12:51:05.081" level="INFO">${nomT} = Printed Summer Dress</msg>
+<status status="PASS" starttime="20200116 12:51:04.840" endtime="20200116 12:51:05.081"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${nomT}</arg>
 </arguments>
-<msg timestamp="20200115 14:11:01.370" level="INFO">Printed Summer Dress</msg>
-<status status="PASS" starttime="20200115 14:11:01.370" endtime="20200115 14:11:01.370"></status>
+<msg timestamp="20200116 12:51:05.082" level="INFO">Printed Summer Dress</msg>
+<status status="PASS" starttime="20200116 12:51:05.081" endtime="20200116 12:51:05.082"></status>
 </kw>
 <kw name="MO" library="recursos">
 <arguments>
@@ -1912,10 +1912,10 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:11:01.371" level="INFO">Simulating Mouse Over on element 'xpath=(//img[@width='250'])[6]'.</msg>
-<status status="PASS" starttime="20200115 14:11:01.371" endtime="20200115 14:11:02.113"></status>
+<msg timestamp="20200116 12:51:05.083" level="INFO">Simulating Mouse Over on element 'xpath=(//img[@width='250'])[6]'.</msg>
+<status status="PASS" starttime="20200116 12:51:05.083" endtime="20200116 12:51:05.871"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:11:01.370" endtime="20200115 14:11:02.113"></status>
+<status status="PASS" starttime="20200116 12:51:05.082" endtime="20200116 12:51:05.871"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -1926,10 +1926,10 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:11:02.113" level="INFO">Clicking element 'xpath=(//span[contains(.,'Quick view')])[6]'.</msg>
-<status status="PASS" starttime="20200115 14:11:02.113" endtime="20200115 14:11:02.425"></status>
+<msg timestamp="20200116 12:51:05.874" level="INFO">Clicking element 'xpath=(//span[contains(.,'Quick view')])[6]'.</msg>
+<status status="PASS" starttime="20200116 12:51:05.873" endtime="20200116 12:51:06.222"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:11:02.113" endtime="20200115 14:11:02.425"></status>
+<status status="PASS" starttime="20200116 12:51:05.872" endtime="20200116 12:51:06.222"></status>
 </kw>
 <kw name="Visible" library="recursos">
 <arguments>
@@ -1940,9 +1940,9 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:11:02.427" endtime="20200115 14:11:03.500"></status>
+<status status="PASS" starttime="20200116 12:51:06.223" endtime="20200116 12:51:07.379"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:11:02.426" endtime="20200115 14:11:03.500"></status>
+<status status="PASS" starttime="20200116 12:51:06.222" endtime="20200116 12:51:07.380"></status>
 </kw>
 <kw name="SF" library="recursos">
 <arguments>
@@ -1953,10 +1953,10 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:11:03.500" level="INFO">Selecting frame 'xpath=//*[@id="index"]/div[2]/div/div/div/div/iframe'.</msg>
-<status status="PASS" starttime="20200115 14:11:03.500" endtime="20200115 14:11:03.726"></status>
+<msg timestamp="20200116 12:51:07.381" level="INFO">Selecting frame 'xpath=//*[@id="index"]/div[2]/div/div/div/div/iframe'.</msg>
+<status status="PASS" starttime="20200116 12:51:07.381" endtime="20200116 12:51:07.644"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:11:03.500" endtime="20200115 14:11:03.726"></status>
+<status status="PASS" starttime="20200116 12:51:07.380" endtime="20200116 12:51:07.645"></status>
 </kw>
 <kw name="Visible" library="recursos">
 <arguments>
@@ -1967,17 +1967,17 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:11:03.726" endtime="20200115 14:11:03.956"></status>
+<status status="PASS" starttime="20200116 12:51:07.647" endtime="20200116 12:51:07.897"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:11:03.726" endtime="20200115 14:11:03.956"></status>
+<status status="PASS" starttime="20200116 12:51:07.645" endtime="20200116 12:51:07.897"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${titulo}</arg>
 </arguments>
-<msg timestamp="20200115 14:11:03.956" level="INFO">xpath=//h1[contains(@itemprop,'name')]</msg>
-<status status="PASS" starttime="20200115 14:11:03.956" endtime="20200115 14:11:03.956"></status>
+<msg timestamp="20200116 12:51:07.898" level="INFO">xpath=//h1[contains(@itemprop,'name')]</msg>
+<status status="PASS" starttime="20200116 12:51:07.898" endtime="20200116 12:51:07.899"></status>
 </kw>
 <kw name="Comparar" library="recursos">
 <arguments>
@@ -1990,17 +1990,17 @@
 <arg>${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200115 14:11:03.956" level="INFO">Verifying element 'xpath=//h1[contains(@itemprop,'name')]' contains exact text 'Printed Summer Dress'.</msg>
-<status status="PASS" starttime="20200115 14:11:03.956" endtime="20200115 14:11:04.175"></status>
+<msg timestamp="20200116 12:51:07.901" level="INFO">Verifying element 'xpath=//h1[contains(@itemprop,'name')]' contains exact text 'Printed Summer Dress'.</msg>
+<status status="PASS" starttime="20200116 12:51:07.900" endtime="20200116 12:51:08.166"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:11:03.956" endtime="20200115 14:11:04.175"></status>
+<status status="PASS" starttime="20200116 12:51:07.899" endtime="20200116 12:51:08.166"></status>
 </kw>
 <kw name="USF" library="recursos">
 <kw name="Unselect Frame" library="SeleniumLibrary">
 <doc>Sets the main frame as the current frame.</doc>
-<status status="PASS" starttime="20200115 14:11:04.175" endtime="20200115 14:11:04.285"></status>
+<status status="PASS" starttime="20200116 12:51:08.167" endtime="20200116 12:51:08.271"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:11:04.175" endtime="20200115 14:11:04.285"></status>
+<status status="PASS" starttime="20200116 12:51:08.167" endtime="20200116 12:51:08.271"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -2011,12 +2011,12 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:11:04.285" level="INFO">Clicking element 'xpath=//a[@title='Close']'.</msg>
-<status status="PASS" starttime="20200115 14:11:04.285" endtime="20200115 14:11:04.536"></status>
+<msg timestamp="20200116 12:51:08.273" level="INFO">Clicking element 'xpath=//a[@title='Close']'.</msg>
+<status status="PASS" starttime="20200116 12:51:08.272" endtime="20200116 12:51:08.544"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:11:04.285" endtime="20200115 14:11:04.536"></status>
+<status status="PASS" starttime="20200116 12:51:08.272" endtime="20200116 12:51:08.544"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:11:00.926" endtime="20200115 14:11:04.536"></status>
+<status status="PASS" starttime="20200116 12:51:04.608" endtime="20200116 12:51:08.544"></status>
 </kw>
 <kw name="${item} = 7" type="foritem">
 <kw name="Focus" library="recursos">
@@ -2028,9 +2028,9 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:11:04.537" endtime="20200115 14:11:04.755"></status>
+<status status="PASS" starttime="20200116 12:51:08.544" endtime="20200116 12:51:08.763"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:11:04.537" endtime="20200115 14:11:04.755"></status>
+<status status="PASS" starttime="20200116 12:51:08.544" endtime="20200116 12:51:08.763"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -2040,16 +2040,16 @@
 <assign>
 <var>${nomT}</var>
 </assign>
-<msg timestamp="20200115 14:11:04.976" level="INFO">${nomT} = Printed Chiffon Dress</msg>
-<status status="PASS" starttime="20200115 14:11:04.755" endtime="20200115 14:11:04.976"></status>
+<msg timestamp="20200116 12:51:08.986" level="INFO">${nomT} = Printed Chiffon Dress</msg>
+<status status="PASS" starttime="20200116 12:51:08.764" endtime="20200116 12:51:08.986"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${nomT}</arg>
 </arguments>
-<msg timestamp="20200115 14:11:04.976" level="INFO">Printed Chiffon Dress</msg>
-<status status="PASS" starttime="20200115 14:11:04.976" endtime="20200115 14:11:04.976"></status>
+<msg timestamp="20200116 12:51:08.986" level="INFO">Printed Chiffon Dress</msg>
+<status status="PASS" starttime="20200116 12:51:08.986" endtime="20200116 12:51:08.986"></status>
 </kw>
 <kw name="MO" library="recursos">
 <arguments>
@@ -2060,10 +2060,10 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:11:04.977" level="INFO">Simulating Mouse Over on element 'xpath=(//img[@width='250'])[7]'.</msg>
-<status status="PASS" starttime="20200115 14:11:04.977" endtime="20200115 14:11:05.728"></status>
+<msg timestamp="20200116 12:51:08.987" level="INFO">Simulating Mouse Over on element 'xpath=(//img[@width='250'])[7]'.</msg>
+<status status="PASS" starttime="20200116 12:51:08.987" endtime="20200116 12:51:09.732"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:11:04.976" endtime="20200115 14:11:05.728"></status>
+<status status="PASS" starttime="20200116 12:51:08.986" endtime="20200116 12:51:09.733"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -2074,10 +2074,10 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:11:05.728" level="INFO">Clicking element 'xpath=(//span[contains(.,'Quick view')])[7]'.</msg>
-<status status="PASS" starttime="20200115 14:11:05.728" endtime="20200115 14:11:06.006"></status>
+<msg timestamp="20200116 12:51:09.734" level="INFO">Clicking element 'xpath=(//span[contains(.,'Quick view')])[7]'.</msg>
+<status status="PASS" starttime="20200116 12:51:09.734" endtime="20200116 12:51:10.076"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:11:05.728" endtime="20200115 14:11:06.006"></status>
+<status status="PASS" starttime="20200116 12:51:09.733" endtime="20200116 12:51:10.076"></status>
 </kw>
 <kw name="Visible" library="recursos">
 <arguments>
@@ -2088,9 +2088,9 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:11:06.006" endtime="20200115 14:11:07.067"></status>
+<status status="PASS" starttime="20200116 12:51:10.077" endtime="20200116 12:51:11.182"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:11:06.006" endtime="20200115 14:11:07.067"></status>
+<status status="PASS" starttime="20200116 12:51:10.076" endtime="20200116 12:51:11.182"></status>
 </kw>
 <kw name="SF" library="recursos">
 <arguments>
@@ -2101,10 +2101,10 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:11:07.068" level="INFO">Selecting frame 'xpath=//*[@id="index"]/div[2]/div/div/div/div/iframe'.</msg>
-<status status="PASS" starttime="20200115 14:11:07.067" endtime="20200115 14:11:07.312"></status>
+<msg timestamp="20200116 12:51:11.183" level="INFO">Selecting frame 'xpath=//*[@id="index"]/div[2]/div/div/div/div/iframe'.</msg>
+<status status="PASS" starttime="20200116 12:51:11.183" endtime="20200116 12:51:11.423"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:11:07.067" endtime="20200115 14:11:07.312"></status>
+<status status="PASS" starttime="20200116 12:51:11.183" endtime="20200116 12:51:11.423"></status>
 </kw>
 <kw name="Visible" library="recursos">
 <arguments>
@@ -2115,17 +2115,17 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200115 14:11:07.312" endtime="20200115 14:11:07.532"></status>
+<status status="PASS" starttime="20200116 12:51:11.424" endtime="20200116 12:51:11.661"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:11:07.312" endtime="20200115 14:11:07.532"></status>
+<status status="PASS" starttime="20200116 12:51:11.423" endtime="20200116 12:51:11.661"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${titulo}</arg>
 </arguments>
-<msg timestamp="20200115 14:11:07.532" level="INFO">xpath=//h1[contains(@itemprop,'name')]</msg>
-<status status="PASS" starttime="20200115 14:11:07.532" endtime="20200115 14:11:07.532"></status>
+<msg timestamp="20200116 12:51:11.662" level="INFO">xpath=//h1[contains(@itemprop,'name')]</msg>
+<status status="PASS" starttime="20200116 12:51:11.662" endtime="20200116 12:51:11.662"></status>
 </kw>
 <kw name="Comparar" library="recursos">
 <arguments>
@@ -2138,17 +2138,17 @@
 <arg>${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200115 14:11:07.533" level="INFO">Verifying element 'xpath=//h1[contains(@itemprop,'name')]' contains exact text 'Printed Chiffon Dress'.</msg>
-<status status="PASS" starttime="20200115 14:11:07.533" endtime="20200115 14:11:07.754"></status>
+<msg timestamp="20200116 12:51:11.664" level="INFO">Verifying element 'xpath=//h1[contains(@itemprop,'name')]' contains exact text 'Printed Chiffon Dress'.</msg>
+<status status="PASS" starttime="20200116 12:51:11.664" endtime="20200116 12:51:11.918"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:11:07.532" endtime="20200115 14:11:07.754"></status>
+<status status="PASS" starttime="20200116 12:51:11.663" endtime="20200116 12:51:11.919"></status>
 </kw>
 <kw name="USF" library="recursos">
 <kw name="Unselect Frame" library="SeleniumLibrary">
 <doc>Sets the main frame as the current frame.</doc>
-<status status="PASS" starttime="20200115 14:11:07.754" endtime="20200115 14:11:07.857"></status>
+<status status="PASS" starttime="20200116 12:51:11.920" endtime="20200116 12:51:12.027"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:11:07.754" endtime="20200115 14:11:07.857"></status>
+<status status="PASS" starttime="20200116 12:51:11.919" endtime="20200116 12:51:12.027"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -2159,25 +2159,25 @@
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200115 14:11:07.857" level="INFO">Clicking element 'xpath=//a[@title='Close']'.</msg>
-<status status="PASS" starttime="20200115 14:11:07.857" endtime="20200115 14:11:08.108"></status>
+<msg timestamp="20200116 12:51:12.030" level="INFO">Clicking element 'xpath=//a[@title='Close']'.</msg>
+<status status="PASS" starttime="20200116 12:51:12.029" endtime="20200116 12:51:12.337"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:11:07.857" endtime="20200115 14:11:08.108"></status>
+<status status="PASS" starttime="20200116 12:51:12.028" endtime="20200116 12:51:12.337"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:11:04.536" endtime="20200115 14:11:08.108"></status>
+<status status="PASS" starttime="20200116 12:51:08.544" endtime="20200116 12:51:12.338"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:41.346" endtime="20200115 14:11:08.108"></status>
+<status status="PASS" starttime="20200116 12:50:45.080" endtime="20200116 12:51:12.338"></status>
 </kw>
 <kw name="Cerrar" library="recursos">
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20200115 14:11:08.109" endtime="20200115 14:11:10.249"></status>
+<status status="PASS" starttime="20200116 12:51:12.339" endtime="20200116 12:51:14.479"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:11:08.108" endtime="20200115 14:11:10.249"></status>
+<status status="PASS" starttime="20200116 12:51:12.338" endtime="20200116 12:51:14.480"></status>
 </kw>
-<status status="PASS" starttime="20200115 14:10:33.223" endtime="20200115 14:11:10.249" critical="yes"></status>
+<status status="PASS" starttime="20200116 12:50:36.198" endtime="20200116 12:51:14.481" critical="yes"></status>
 </test>
-<status status="PASS" starttime="20200115 14:10:01.852" endtime="20200115 14:11:10.249"></status>
+<status status="PASS" starttime="20200116 12:50:00.332" endtime="20200116 12:51:14.486"></status>
 </suite>
 <statistics>
 <total>

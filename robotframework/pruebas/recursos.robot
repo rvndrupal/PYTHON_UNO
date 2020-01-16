@@ -13,6 +13,9 @@ Library     String
 ***Keywords***
 Abrir navegador
     Open Browser    ${url}   ${navegador}
+
+Abrir navegador2
+    Open Browser    ${url2}   ${navegador}
    
 
 Cerrar
@@ -85,6 +88,31 @@ Esperar Objeto
 Esperar Iniciar
     [Arguments]    ${arg1}
     Set Selenium Timeout    ${arg1} seconds
+
+Alerta ok
+    #[Arguments]   ${arg1}
+    Handle Alert    accept
+
+Alerta texto
+    [Arguments]   ${arg1}
+    Alert Should Be Present    ${arg1}
+
+    
+
+Alerta cancel
+    #[Arguments]   ${arg1}
+    Handle Alert    dismiss
+
+Sel Window
+    [Arguments]   ${arg1}
+    Select Window    ${arg1}
+
+Switch Ventana
+    [Arguments]     ${arg1}
+    Switch Browser      ${arg1}
+
+Obtener Titulo
+    Get Title      
     
 
 # If
