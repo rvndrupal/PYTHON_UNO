@@ -27,7 +27,7 @@ mccabe==0.6.1
 more-itertools==8.0.2
 namedlist==1.7
 numpy==1.17.4
-opencv-python==4.1.2.30
+opencv-python==4.2.0.32
 openpyxl==3.0.2
 packaging==19.2
 parse==1.12.1
