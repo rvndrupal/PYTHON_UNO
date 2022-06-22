@@ -26,7 +26,7 @@ matplotlib==3.1.2
 mccabe==0.6.1
 more-itertools==8.0.2
 namedlist==1.7
-numpy==1.17.4
+numpy==1.22.0
 opencv-python==4.1.2.30
 openpyxl==3.0.2
 packaging==19.2
